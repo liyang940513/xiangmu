@@ -1,0 +1,168 @@
+@import "public";
+/*头部区域*/
+#oMyGodTop{
+  height:90px;
+  .oMyGodTopa-con{
+    width:965px;
+    height:65px;
+    margin:0 auto;
+    padding-top:25px;
+    h1{
+      width:600px;
+      height:64px;
+      float:left;
+      a{
+        display:block;
+        width:200px;
+        height:44px;
+        float:left;
+      }
+      span{
+        width:100px;
+        font-size:22px;
+        color:#666;
+        padding-left:9px;
+        border-left:1px solid #f2f2f2;
+      }
+    }
+    p{
+      width:260px;
+      height:34px;
+      float:right;
+      text-align:right;
+      padding-top:30px;
+      font-size:12px;
+      i{
+        a{
+          color:#999;
+        }
+      }
+      span{
+        cursor:pointer;
+        a{
+          color:#333;
+        }
+      }
+    }
+  }
+}
+//注册区域
+#oMyGodzhuce{
+  height:350px;
+  .oMyGodzhuce-con{
+    width:930px;
+    height:270px;
+    margin:0 auto;
+    border:1px solid #999;
+    padding:80px 0 0 60px;
+    form{
+      width:316px;
+      height:270px;
+      position:relative;
+      left:272px;
+      top:0;
+      span{
+        display:block;
+        width:316px;
+        height:25px;
+        background:white;
+        float:left;
+        font-size:12px;
+        color:#f03468;
+        em{
+          display:block;
+          font-size:16px;
+          width:16px;
+          height:16px;
+          border-radius:50%;
+          background:#f03468;
+          color:white;
+          text-align:center;
+          line-height:14px;
+        }
+      }
+      i{
+        display:block;
+        width:40px;
+        height:38px;
+        float:left;
+        color:#999;
+        text-align:center;
+        line-height:38px;
+        border:1px solid #999;
+        border-right:0;
+      }
+      input{
+        float:left;
+        width:274px;
+        height:38px;
+        border:1px solid #999;
+        border-left:0;
+        outline:none;
+      }
+      p{
+        float:left;
+        width:316px;
+        height:30px;
+        font-size:12px;
+        a{
+          color:#f03468;
+        }
+      }
+      .oMyGodbtn{
+        width:316px;
+        height:40px;
+        background:#fa4678;
+        text-align:center;
+        line-height:40px;
+        color:#fff;
+        border:0;
+        font-size:16px;
+        border-radius:4px;
+      }
+    //  密码强度检测
+      .oMyGodqiangdujiance{
+        display:none;
+        width:230px;
+        height:14px;
+        font-size:14px;
+        color:#999;
+        position:absolute;
+        right: -244px;
+        bottom:180px;
+        div{
+          width:70px;
+          height:14px;
+          float:left;font-size:14px;
+          color:#999999;
+        }
+        p{
+          width:50px;
+          height:14px;
+          font-size:14px;
+          color:white;
+          background:#999;
+          line-height:14px;
+          text-align:center;
+          margin-right:3px;
+        }
+      }
+    }
+  }
+}
+
+//底部区域
+#oMyGodbottom{
+  width:900px;
+  height:52px;
+  padding-top:48px;
+  margin:0 auto;
+  text-align:center;
+  color:#999;
+  font-size:12px;
+  p{
+    a{
+      color:#999;
+    }
+  }
+}

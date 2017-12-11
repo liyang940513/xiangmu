@@ -1,0 +1,245 @@
+@charset "UTF-8";
+html, body, p, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, legend, fieldset, img, input, div, a, u, i {
+  margin: 0;
+  padding: 0;
+  font-family: "宋体"; }
+
+ul, ol, li {
+  list-style: none; }
+
+a, u {
+  text-decoration: none; }
+
+i, em {
+  font-style: normal; }
+
+b, strong {
+  font-weight: 100; }
+
+a, h1, h2, h3, h4, h5, h6 {
+  font-weight: 100; }
+
+.clear:after {
+  content: "";
+  height: 0;
+  overflow: hidden;
+  clear: both;
+  visibility: hidden;
+  display: block; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+/*澶撮儴鍖哄煙*/
+#oMyGodTop {
+  height: 90px; }
+  #oMyGodTop .oMyGodTop-con {
+    width: 965px;
+    height: 65px;
+    margin: 0 auto;
+    padding-top: 25px; }
+    #oMyGodTop .oMyGodTop-con h1 {
+      width: 600px;
+      height: 64px;
+      float: left; }
+      #oMyGodTop .oMyGodTop-con h1 a {
+        display: block;
+        width: 200px;
+        height: 44px;
+        float: left; }
+      #oMyGodTop .oMyGodTop-con h1 span {
+        width: 100px;
+        font-size: 22px;
+        color: #666;
+        padding-left: 9px;
+        border-left: 1px solid #f2f2f2; }
+    #oMyGodTop .oMyGodTop-con p {
+      width: 260px;
+      height: 34px;
+      float: right;
+      text-align: right;
+      padding-top: 30px;
+      font-size: 12px; }
+      #oMyGodTop .oMyGodTop-con p i a {
+        color: #999; }
+      #oMyGodTop .oMyGodTop-con p span {
+        cursor: pointer; }
+        #oMyGodTop .oMyGodTop-con p span a {
+          color: #333; }
+
+#oMyGodcenter {
+  height: 480px;
+  background: url(../img/15dbb4df5f8_bc_4fc07ba6b3e71c1ec100271727c0f29a_1919x480.jpeg) center no-repeat; }
+  #oMyGodcenter .oMyGodcenter-con {
+    width: 990px;
+    height: 480px;
+    margin: 0 auto;
+    position: relative; }
+    #oMyGodcenter .oMyGodcenter-con form {
+      width: 350px;
+      height: 436px;
+      background: white;
+      position: absolute;
+      right: 0;
+      top: 22px;
+      overfloe: hidden; }
+      #oMyGodcenter .oMyGodcenter-con form .oMyGoddengluTop {
+        width: 350px;
+        height: 42px;
+        border-bottom: 1px solid #e5e5e5;
+        padding-top: 11px; }
+        #oMyGodcenter .oMyGodcenter-con form .oMyGoddengluTop p {
+          float: left;
+          font-size: 16px;
+          color: #333;
+          line-height: 42px;
+          text-align: center;
+          padding: 0 6px;
+          cursor: pointer; }
+        #oMyGodcenter .oMyGodcenter-con form .oMyGoddengluTop .oMyGodzhanghao {
+          height: 42px;
+          border-bottom: 2px solid #f03468;
+          margin-left: 46px; }
+        #oMyGodcenter .oMyGodcenter-con form .oMyGoddengluTop .oMyGodshouji {
+          margin-left: 74px;
+          color: #999; }
+      #oMyGodcenter .oMyGodcenter-con form .oMyGodcenter {
+        overflow: hidden;
+        width: 350px;
+        height: 235px;
+        position: relative; }
+        #oMyGodcenter .oMyGodcenter-con form .oMyGodcenter .oMyGodshoujidenglu {
+          width: 350px;
+          height: 225px;
+          position: absolute;
+          top: 0;
+          right: -350px; }
+          #oMyGodcenter .oMyGodcenter-con form .oMyGodcenter .oMyGodshoujidenglu .oMyGodzhucename {
+            width: 314px;
+            height: 38px;
+            border: 1px solid #e5e5e5;
+            margin: 25px 0 0 17px; }
+            #oMyGodcenter .oMyGodcenter-con form .oMyGodcenter .oMyGodshoujidenglu .oMyGodzhucename .oMyGodyanzhengma {
+              display: block;
+              padding: 0 5px;
+              text-align: center;
+              height: 40px;
+              line-height: 40px;
+              position: absolute;
+              top: 90px;
+              right: 18px;
+              background: #ffba00;
+              color: white; }
+            #oMyGodcenter .oMyGodcenter-con form .oMyGodcenter .oMyGodshoujidenglu .oMyGodzhucename i {
+              display: block;
+              width: 40px;
+              height: 38px;
+              background: #f9aec3;
+              float: left;
+              color: white;
+              font-size: 20px;
+              text-align: center;
+              line-height: 38px; }
+            #oMyGodcenter .oMyGodcenter-con form .oMyGodcenter .oMyGodshoujidenglu .oMyGodzhucename input {
+              width: 264px;
+              height: 38px;
+              border: 0;
+              font-size: 16px;
+              padding-left: 10px; }
+          #oMyGodcenter .oMyGodcenter-con form .oMyGodcenter .oMyGodshoujidenglu .oMyGodmiandeng {
+            width: 304px;
+            height: 14px;
+            font-size: 12px;
+            color: #999;
+            margin: 25px 0 0 17px;
+            word-break: break-all; }
+            #oMyGodcenter .oMyGodcenter-con form .oMyGodcenter .oMyGodshoujidenglu .oMyGodmiandeng span {
+              margin-left: 135px;
+              color: #333; }
+          #oMyGodcenter .oMyGodcenter-con form .oMyGodcenter .oMyGodshoujidenglu .oMyGoddenglu {
+            width: 314px;
+            height: 38px;
+            border: 0;
+            margin: 25px 0 0 17px;
+            color: #fff;
+            font-size: 18px;
+            text-align: center;
+            line-height: 38px;
+            background: #f03468;
+            cursor: pointer; }
+        #oMyGodcenter .oMyGodcenter-con form .oMyGodcenter .oMyGoddenglucenter {
+          width: 350px;
+          height: 225px;
+          position: absolute;
+          left: 0; }
+          #oMyGodcenter .oMyGodcenter-con form .oMyGodcenter .oMyGoddenglucenter .oMyGodzhucename {
+            width: 314px;
+            height: 38px;
+            border: 1px solid #e5e5e5;
+            margin: 25px 0 0 17px; }
+            #oMyGodcenter .oMyGodcenter-con form .oMyGodcenter .oMyGoddenglucenter .oMyGodzhucename i {
+              font-size: 20px;
+              text-align: center;
+              line-height: 38px;
+              display: block;
+              width: 40px;
+              height: 38px;
+              background: #f9aec3;
+              float: left;
+              color: white; }
+            #oMyGodcenter .oMyGodcenter-con form .oMyGodcenter .oMyGoddenglucenter .oMyGodzhucename input {
+              width: 264px;
+              height: 38px;
+              border: 0;
+              font-size: 16px;
+              padding-left: 10px; }
+          #oMyGodcenter .oMyGodcenter-con form .oMyGodcenter .oMyGoddenglucenter .oMyGodmiandeng {
+            width: 304px;
+            height: 14px;
+            font-size: 12px;
+            color: #999;
+            margin: 25px 0 0 17px; }
+            #oMyGodcenter .oMyGodcenter-con form .oMyGodcenter .oMyGoddenglucenter .oMyGodmiandeng span {
+              margin-left: 135px;
+              color: #333; }
+          #oMyGodcenter .oMyGodcenter-con form .oMyGodcenter .oMyGoddenglucenter .oMyGoddenglu {
+            width: 314px;
+            height: 38px;
+            border: 0;
+            margin: 25px 0 0 17px;
+            color: #fff;
+            font-size: 18px;
+            text-align: center;
+            line-height: 38px;
+            background: #f03468;
+            cursor: pointer; }
+      #oMyGodcenter .oMyGodcenter-con form .oMyGodanother {
+        width: 313px;
+        height: 50px;
+        margin: 88px 0 0 25px;
+        padding-left: 3px;
+        color: #999;
+        font-size: 12px; }
+        #oMyGodcenter .oMyGodcenter-con form .oMyGodanother span {
+          overflow: hidden;
+          font-size: 20px;
+          text-align: center;
+          line-height: 30px;
+          display: inline-block;
+          width: 28px;
+          height: 30px;
+          cursor: pointer; }
+
+#oMyGodbottom {
+  width: 900px;
+  height: 52px;
+  padding-top: 48px;
+  margin: 0 auto;
+  text-align: center;
+  color: #999;
+  font-size: 12px; }
+  #oMyGodbottom p a {
+    color: #999; }
+
+/*# sourceMappingURL=enter.css.map */

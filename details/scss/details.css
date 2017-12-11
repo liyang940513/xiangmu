@@ -1,0 +1,1405 @@
+@charset "UTF-8";
+html, body, p, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, legend, fieldset, img, input, div, a, u, i {
+  margin: 0;
+  padding: 0;
+  font-family: "宋体"; }
+
+ul, ol, li {
+  list-style: none; }
+
+a, u {
+  text-decoration: none; }
+
+i, em {
+  font-style: normal; }
+
+b, strong {
+  font-weight: 100; }
+
+a, h1, h2, h3, h4, h5, h6 {
+  font-weight: 100; }
+
+.clear:after {
+  content: "";
+  height: 0;
+  overflow: hidden;
+  clear: both;
+  visibility: hidden;
+  display: block; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+#oMyGodtop-con {
+  height: 34px;
+  border-bottom: 1px solid #eee;
+  background: #f5f5f5; }
+
+.oMyGodtop {
+  height: 34px;
+  width: 1200px;
+  margin: 0 auto; }
+
+.oMyGodtopLeft {
+  position: relative;
+  width: 417px;
+  height: 34px;
+  float: left; }
+  .oMyGodtopLeft .oMyGodwelcome {
+    width: 262px;
+    height: 22px;
+    padding-top: 10px; }
+  .oMyGodtopLeft p {
+    font-size: 12px;
+    color: #656565; }
+    .oMyGodtopLeft p a {
+      color: #f74a2c;
+      margin-left: 4px;
+      margin-right: 10px; }
+  .oMyGodtopLeft .oMyGodaddress {
+    float: left;
+    width: 153px;
+    height: 26px;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    background: white;
+    position: relative;
+    top: -29px;
+    left: 257px;
+    z-index: 1000; }
+    .oMyGodtopLeft .oMyGodaddress span {
+      display: block;
+      width: 45px;
+      height: 26px;
+      line-height: 26px;
+      float: left;
+      text-align: center; }
+    .oMyGodtopLeft .oMyGodaddress i {
+      display: block;
+      width: 0;
+      height: 0;
+      border: 6px solid transparent;
+      border-top: 6px solid #333;
+      position: absolute;
+      right: 6px;
+      top: 11px; }
+  .oMyGodtopLeft .oMyGodaddressafter {
+    display: none;
+    padding: 10px;
+    min-height: 100px;
+    width: 370px;
+    padding: 10px;
+    background: white;
+    border-radius: 2px;
+    border: 1px solid #e1e1e1;
+    position: absolute;
+    left: 257px;
+    top: 27px;
+    z-index: 999; }
+    .oMyGodtopLeft .oMyGodaddressafter .oMyGodchoose {
+      width: 350px;
+      height: 30px;
+      margin: 0 8px;
+      border-bottom: 1px solid #edd28b;
+      z-index: 0; }
+      .oMyGodtopLeft .oMyGodaddressafter .oMyGodchoose div {
+        width: 70px;
+        height: 30px;
+        margin-right: 5px;
+        border: 1px solid #edd28b;
+        float: left;
+        border-radius: 4px;
+        border-bottom: 0;
+        position: relative;
+        line-height: 30px;
+        padding-left: 10px;
+        opacity: 0.3;
+        cursor: pointer; }
+        .oMyGodtopLeft .oMyGodaddressafter .oMyGodchoose div i {
+          display: block;
+          width: 0;
+          height: 0;
+          border: 6px solid transparent;
+          border-top: 6px solid #333;
+          position: absolute;
+          right: 6px;
+          top: 11px; }
+      .oMyGodtopLeft .oMyGodaddressafter .oMyGodchoose .oMyGodbianhuan {
+        opacity: 1; }
+    .oMyGodtopLeft .oMyGodaddressafter .oMyGodcountry {
+      display: none;
+      width: 350px;
+      height: 200px;
+      margin: 10px 8px; }
+      .oMyGodtopLeft .oMyGodaddressafter .oMyGodcountry p {
+        width: 80px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 12px;
+        float: left;
+        margin: 5px 5px 0 0;
+        text-align: center; }
+
+.oMyGodtopRight {
+  width: 380px;
+  height: 34px;
+  float: right;
+  position: relative; }
+  .oMyGodtopRight .oMyGodtopPhone {
+    display: none;
+    overflow: hidden;
+    width: 127px;
+    height: 127px;
+    position: absolute;
+    right: 126px;
+    top: 33px;
+    background: white;
+    padding-top: 12px;
+    text-align: center;
+    border: 1px solid #eee;
+    z-index: 999; }
+    .oMyGodtopRight .oMyGodtopPhone img {
+      width: 115px;
+      height: 115px; }
+  .oMyGodtopRight li {
+    font-size: 12px;
+    height: 21px;
+    float: left;
+    line-height: 12px;
+    background: url(../../index/img/beijingtiao_03.gif) right 12px no-repeat; }
+    .oMyGodtopRight li a {
+      color: #666; }
+  .oMyGodtopRight .oMyGodtopRightli1 {
+    height: 34px; }
+    .oMyGodtopRight .oMyGodtopRightli1 div {
+      display: none;
+      overflow: hidden;
+      width: 90px;
+      padding: 5px 0 10px 0;
+      position: absolute;
+      top: 34px;
+      left: -1px;
+      font-size: 12px;
+      background: white;
+      z-index: 999;
+      border: 1px solid #eee;
+      border-top: 0; }
+      .oMyGodtopRight .oMyGodtopRightli1 div a {
+        font-size: 12px;
+        color: #666;
+        display: block;
+        height: 12px;
+        line-height: 14px;
+        padding-bottom: 8px; }
+    .oMyGodtopRight .oMyGodtopRightli1 a {
+      display: block;
+      width: 79px;
+      height: 12px;
+      padding: 9px 0 0 11px; }
+      .oMyGodtopRight .oMyGodtopRightli1 a i {
+        display: inline-block;
+        width: 10px;
+        height: 12px;
+        background: url(../../index/img/icon_index.png) -2px -1px no-repeat;
+        margin: 0 0 0 9px; }
+  .oMyGodtopRight .oMyGodtopRightli2 {
+    padding: 11px 11px 0 11px; }
+  .oMyGodtopRight .oMyGodtopRightli3 {
+    z-index: 1000;
+    padding: 13px 11px 0 31px;
+    position: relative; }
+    .oMyGodtopRight .oMyGodtopRightli3 a i {
+      display: inline-block;
+      position: absolute;
+      left: 15px;
+      top: 9px;
+      width: 10px;
+      height: 16px;
+      background: url(../../index/img/icon_index.png) -4px -47px no-repeat; }
+  .oMyGodtopRight .oMyGodtopRightli4 {
+    padding: 11px 11px 0 26px;
+    position: relative;
+    background: 0; }
+    .oMyGodtopRight .oMyGodtopRightli4 a i {
+      display: inline-block;
+      position: absolute;
+      left: 12px;
+      top: 11px;
+      width: 13px;
+      height: 12px;
+      background: url(../../index/img/icon_index.png) -3px -66px no-repeat; }
+    .oMyGodtopRight .oMyGodtopRightli4 a span {
+      font-size: 12px;
+      color: #fb463d; }
+
+#oMyGodlogo-con {
+  height: 133px;
+  background: white; }
+
+.oMyGodlogo {
+  height: 133px;
+  width: 1200px;
+  margin: 0 auto; }
+  .oMyGodlogo h1 {
+    width: 361px;
+    height: 110px;
+    float: left;
+    margin-right: 89px;
+    margin-top: 5px; }
+  .oMyGodlogo .oMyGodSearch {
+    width: 394px;
+    height: 50px;
+    float: left;
+    margin-top: 45px;
+    position: relative; }
+    .oMyGodlogo .oMyGodSearch .oMyGodtext {
+      width: 317px;
+      height: 26px;
+      border: 2px solid #fb463d;
+      outline: none;
+      color: #999;
+      padding-left: 5px;
+      font-size: 14px; }
+    .oMyGodlogo .oMyGodSearch .oMyGodbtn {
+      width: 72px;
+      height: 30px;
+      background: #fb463d;
+      color: white;
+      outline: none;
+      border: 0;
+      cursor: pointer;
+      position: absolute;
+      right: 1px; }
+    .oMyGodlogo .oMyGodSearch p {
+      width: 393px;
+      height: 26px;
+      font-size: 12px;
+      line-height: 26px; }
+      .oMyGodlogo .oMyGodSearch p a {
+        color: #acacac;
+        margin-right: 5px; }
+      .oMyGodlogo .oMyGodSearch p .oMyGodSearchspan1 a {
+        color: #fd0200; }
+  .oMyGodlogo .oMyGodBaozheng {
+    width: 282px;
+    height: 33px;
+    float: left;
+    margin: 48px 0 0 64px;
+    /*正品保证*/ }
+    .oMyGodlogo .oMyGodBaozheng div {
+      width: 64px;
+      height: 33px;
+      float: left;
+      margin-left: 30px; }
+    .oMyGodlogo .oMyGodBaozheng .oMyGodBaozhengdiv1 {
+      background: url(../img/1569bc7b461_bc_b053891e6777b531f21acd6569f91562_258x546.png) -91px -180px no-repeat; }
+    .oMyGodlogo .oMyGodBaozheng .oMyGodBaozhengdiv2 {
+      background: url(../img/1569bc7b461_bc_b053891e6777b531f21acd6569f91562_258x546.png) -91px -213px no-repeat; }
+    .oMyGodlogo .oMyGodBaozheng .oMyGodBaozhengdiv3 {
+      background: url(../img/1569bc7b461_bc_b053891e6777b531f21acd6569f91562_258x546.png) -91px -246px no-repeat; }
+
+#oMyGodnav-con {
+  height: 28px; }
+
+.oMyGodnav {
+  position: relative;
+  width: 1144px;
+  height: 28px;
+  margin: 0 auto;
+  padding-left: 56px; }
+  .oMyGodnav ul li {
+    float: left;
+    cursor: pointer; }
+    .oMyGodnav ul li a {
+      height: 28px;
+      margin-left: 34px;
+      color: #4a3a3d; }
+  .oMyGodnav ul .oMyGodnavli1 {
+    height: 30px;
+    margin-right: 69px;
+    padding-top: 1px;
+    font-size: 16px;
+    font-weight: 900;
+    color: #1b0000; }
+  .oMyGodnav ul .oMyGodnavli2 a {
+    color: #ff476c; }
+  .oMyGodnav ul .oMyGodnav-li8 {
+    margin-left: 73px;
+    padding-left: 30px; }
+    .oMyGodnav ul .oMyGodnav-li8 span {
+      display: inline-block;
+      width: 4px;
+      height: 4px;
+      background: #333;
+      transform: rotate(45deg);
+      position: relative;
+      bottom: 3px;
+      right: 3px; }
+  .oMyGodnav ul .oMyGodnav-li9 {
+    margin-left: 24px;
+    padding-left: 17px; }
+    .oMyGodnav ul .oMyGodnav-li9 span {
+      display: inline-block;
+      width: 4px;
+      height: 4px;
+      background: #333;
+      transform: rotate(45deg);
+      position: relative;
+      bottom: 3px;
+      right: 3px; }
+
+#oMyGodbottom {
+  height: 372px; }
+  #oMyGodbottom .oMyGodbottom-con {
+    height: 322px;
+    margin: 0 auto;
+    background: #d3d3d3;
+    padding-top: 50px; }
+    #oMyGodbottom .oMyGodbottom-con .oMyGodbottomtop {
+      height: 106px;
+      background: #3e3a39; }
+      #oMyGodbottom .oMyGodbottom-con .oMyGodbottomtop div {
+        width: 1200px;
+        height: 106px; }
+        #oMyGodbottom .oMyGodbottom-con .oMyGodbottomtop div p span {
+          margin-top: 17px;
+          display: block;
+          width: 54px;
+          height: 56px;
+          margin-bottom: 3px; }
+        #oMyGodbottom .oMyGodbottom-con .oMyGodbottomtop div .oMyGodbottomtopp1 span {
+          background: url(../img/1548f53e1b7_bc_f4a0226079f45dd45317e6195735cbd7_60x360.png) -4px -2px no-repeat; }
+        #oMyGodbottom .oMyGodbottom-con .oMyGodbottomtop div .oMyGodbottomtopp2 span {
+          background: url(../img/1548f53e1b7_bc_f4a0226079f45dd45317e6195735cbd7_60x360.png) -3px -62px no-repeat; }
+        #oMyGodbottom .oMyGodbottom-con .oMyGodbottomtop div .oMyGodbottomtopp3 span {
+          background: url(../img/1548f53e1b7_bc_f4a0226079f45dd45317e6195735cbd7_60x360.png) -3px -122px no-repeat; }
+        #oMyGodbottom .oMyGodbottom-con .oMyGodbottomtop div .oMyGodbottomtopp4 span {
+          background: url(../img/1548f53e1b7_bc_f4a0226079f45dd45317e6195735cbd7_60x360.png) -3px -181px no-repeat; }
+        #oMyGodbottom .oMyGodbottom-con .oMyGodbottomtop div .oMyGodbottomtopp5 span {
+          background: url(../img/1548f53e1b7_bc_f4a0226079f45dd45317e6195735cbd7_60x360.png) -3px -240px no-repeat; }
+        #oMyGodbottom .oMyGodbottom-con .oMyGodbottomtop div .oMyGodbottomtopp6 span {
+          background: url(../img/1548f53e1b7_bc_f4a0226079f45dd45317e6195735cbd7_60x360.png) -3px -302px no-repeat; }
+        #oMyGodbottom .oMyGodbottom-con .oMyGodbottomtop div p {
+          float: left;
+          width: 54px;
+          height: 30px;
+          text-align: center;
+          line-height: 12px;
+          color: #f1f1f1;
+          margin: 0 73px;
+          font-size: 12px; }
+    #oMyGodbottom .oMyGodbottom-con .oMyGodbottomcenter {
+      background: #d3d3d3;
+      height: 172px; }
+      #oMyGodbottom .oMyGodbottom-con .oMyGodbottomcenter div {
+        width: 1200px;
+        height: 136px;
+        margin: 0 auto;
+        padding-top: 36px; }
+        #oMyGodbottom .oMyGodbottom-con .oMyGodbottomcenter div h4 {
+          float: left;
+          width: 240px;
+          height: 136px; }
+          #oMyGodbottom .oMyGodbottom-con .oMyGodbottomcenter div h4 p {
+            width: 250px;
+            height: 50px;
+            line-height: 50px;
+            font-size: 12px;
+            color: #666; }
+            #oMyGodbottom .oMyGodbottom-con .oMyGodbottomcenter div h4 p a {
+              display: inline-block;
+              width: 36px;
+              height: 36px;
+              position: relative;
+              left: 10px;
+              top: 12px; }
+              #oMyGodbottom .oMyGodbottom-con .oMyGodbottomcenter div h4 p a span {
+                display: none;
+                width: 100px;
+                height: 100px;
+                padding: 18px;
+                position: absolute;
+                background: white;
+                z-index: 999;
+                top: -140px;
+                left: -50px; }
+                #oMyGodbottom .oMyGodbottom-con .oMyGodbottomcenter div h4 p a span img {
+                  display: inline-block;
+                  width: 100px;
+                  height: 100px; }
+                #oMyGodbottom .oMyGodbottom-con .oMyGodbottomcenter div h4 p a span i {
+                  display: inline-block;
+                  width: 0;
+                  height: 0;
+                  border: 12px solid transparent;
+                  border-top: 12px solid white;
+                  position: absolute;
+                  bottom: -18px;
+                  left: 54px; }
+        #oMyGodbottom .oMyGodbottom-con .oMyGodbottomcenter div ul {
+          float: left; }
+          #oMyGodbottom .oMyGodbottom-con .oMyGodbottomcenter div ul li {
+            width: 160px;
+            height: 136px;
+            float: left; }
+            #oMyGodbottom .oMyGodbottom-con .oMyGodbottomcenter div ul li p {
+              font-size: 18px;
+              color: #000;
+              line-height: 18px;
+              height: 18px;
+              margin-bottom: 12px; }
+            #oMyGodbottom .oMyGodbottom-con .oMyGodbottomcenter div ul li a {
+              display: block;
+              font-size: 12px;
+              color: #666;
+              margin-bottom: 10px;
+              height: 12px;
+              line-height: 12px; }
+          #oMyGodbottom .oMyGodbottom-con .oMyGodbottomcenter div ul .oMyGodtwo {
+            width: 110px;
+            height: 136px;
+            text-align: center; }
+            #oMyGodbottom .oMyGodbottom-con .oMyGodbottomcenter div ul .oMyGodtwo img {
+              width: 100px;
+              height: 100px; }
+            #oMyGodbottom .oMyGodbottom-con .oMyGodbottomcenter div ul .oMyGodtwo span {
+              font-size: 12px;
+              color: #666; }
+    #oMyGodbottom .oMyGodbottom-con .oMyGodbottomdi {
+      height: 44px;
+      background: #333; }
+      #oMyGodbottom .oMyGodbottom-con .oMyGodbottomdi p {
+        width: 1200px;
+        height: 44px;
+        margin: 0 auto;
+        font-size: 12px;
+        color: #f1f1f1;
+        text-align: center;
+        line-height: 44px; }
+
+#oMyGodbuycart {
+  width: 320px;
+  position: fixed;
+  top: 0;
+  right: -280px;
+  background: red;
+  z-index: 9998; }
+  #oMyGodbuycart div {
+    float: left;
+    cursor: pointer; }
+  #oMyGodbuycart .oMyGodbuycartleft {
+    width: 40px;
+    height: 100%;
+    background: #333;
+    position: relative; }
+    #oMyGodbuycart .oMyGodbuycartleft .oMyGodbuycar {
+      height: 110px;
+      width: 24px;
+      font-size: 16px;
+      padding: 5px 8px;
+      text-align: center;
+      color: white;
+      position: absolute;
+      left: 0;
+      top: 270px; }
+      #oMyGodbuycart .oMyGodbuycartleft .oMyGodbuycar i {
+        display: block;
+        width: 24px;
+        height: 24px;
+        font-size: 24px;
+        line-height: 24px;
+        text-align: center;
+        color: white;
+        margin-bottom: 3px; }
+      #oMyGodbuycart .oMyGodbuycartleft .oMyGodbuycar span {
+        display: block;
+        width: 16px;
+        height: 16px;
+        background: #f03468;
+        color: white;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 16px;
+        margin: 3px 0 0 4px; }
+    #oMyGodbuycart .oMyGodbuycartleft .oMyGodlianxi {
+      width: 24px;
+      height: 24px;
+      padding: 8px;
+      position: absolute;
+      bottom: 90px; }
+      #oMyGodbuycart .oMyGodbuycartleft .oMyGodlianxi i {
+        display: block;
+        width: 24px;
+        height: 24px;
+        color: white;
+        font-size: 24px; }
+    #oMyGodbuycart .oMyGodbuycartleft .oMyGodma {
+      width: 24px;
+      height: 24px;
+      position: absolute;
+      bottom: 50px;
+      padding: 8px;
+      font-size: 24px;
+      color: white;
+      z-index: 19999; }
+    #oMyGodbuycart .oMyGodbuycartleft .oMyGodtanma {
+      display: none;
+      overflow: hidden;
+      width: 150px;
+      height: 160px;
+      background: white;
+      text-align: center;
+      padding-top: 20px;
+      position: absolute;
+      bottom: 0;
+      left: -150px;
+      z-index: 9999; }
+      #oMyGodbuycart .oMyGodbuycartleft .oMyGodtanma p {
+        width: 150px;
+        height: 20px;
+        font-size: 14px;
+        color: #999999; }
+        #oMyGodbuycart .oMyGodbuycartleft .oMyGodtanma p i {
+          display: block;
+          width: 14px;
+          height: 14px;
+          position: absolute;
+          top: 18px;
+          right: 12px; }
+      #oMyGodbuycart .oMyGodbuycartleft .oMyGodtanma img {
+        width: 100px;
+        height: 100px; }
+    #oMyGodbuycart .oMyGodbuycartleft .oMyGodgotop {
+      display: none;
+      width: 40px;
+      height: 34px;
+      position: absolute;
+      bottom: 0;
+      color: white;
+      font-size: 14px;
+      padding-top: 16px;
+      text-align: center; }
+      #oMyGodbuycart .oMyGodbuycartleft .oMyGodgotop i {
+        display: block;
+        width: 0;
+        height: 0;
+        border: 8px solid transparent;
+        border-bottom: 8px solid white;
+        position: absolute;
+        top: -2px;
+        left: 12px; }
+  #oMyGodbuycart .oMyGodbuycartright {
+    width: 280px;
+    height: 100%;
+    background: #f2f2f2;
+    overflow: auto; }
+    #oMyGodbuycart .oMyGodbuycartright .oMyGodcar-con {
+      width: 280px;
+      padding-top: 30px; }
+    #oMyGodbuycart .oMyGodbuycartright .oMyGodface {
+      width: 250px;
+      height: 80px;
+      background: white;
+      text-align: center;
+      line-height: 80px;
+      font-size: 16px;
+      margin: 20px 0 0 15px; }
+    #oMyGodbuycart .oMyGodbuycartright .oMyGodcartsp {
+      width: 230px;
+      height: 60px;
+      padding: 10px;
+      margin: 0 0 10px 15px;
+      background: white;
+      position: relative; }
+      #oMyGodbuycart .oMyGodbuycartright .oMyGodcartsp .oMyGodzhe {
+        width: 250px;
+        height: 80px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 999; }
+      #oMyGodbuycart .oMyGodbuycartright .oMyGodcartsp a {
+        display: block;
+        width: 60px;
+        height: 60px;
+        float: left;
+        background: white; }
+        #oMyGodbuycart .oMyGodbuycartright .oMyGodcartsp a img {
+          width: 100%;
+          height: 100%; }
+      #oMyGodbuycart .oMyGodbuycartright .oMyGodcartsp p {
+        float: left;
+        width: 162px;
+        height: 40px;
+        font-size: 12px;
+        line-height: 20px;
+        margin-left: 8px;
+        overflow: hidden; }
+      #oMyGodbuycart .oMyGodbuycartright .oMyGodcartsp span {
+        display: block;
+        width: 162px;
+        height: 20px;
+        float: left;
+        position: relative; }
+        #oMyGodbuycart .oMyGodbuycartright .oMyGodcartsp span i {
+          width: 115px;
+          height: 20px;
+          display: block;
+          font-size: 18px;
+          margin: 0 0 0 10px;
+          float: left;
+          color: #f03468; }
+        #oMyGodbuycart .oMyGodbuycartright .oMyGodcartsp span b {
+          height: 20px;
+          width: 14px;
+          display: block;
+          float: left;
+          background: #f03468;
+          font-size: 12px;
+          color: white;
+          text-align: center;
+          line-height: 20px; }
+        #oMyGodbuycart .oMyGodbuycartright .oMyGodcartsp span em {
+          display: none;
+          color: gray;
+          float: left;
+          width: 12px;
+          height: 12px;
+          border-radius: 50%;
+          text-align: center;
+          line-height: 10px;
+          font-size: 22px;
+          border: 1px solid gray;
+          margin: 4px 0 0 3px;
+          position: absolute;
+          right: 0;
+          bottom: 0;
+          z-index: 1500; }
+    #oMyGodbuycart .oMyGodbuycartright .oMyGodjiesuan {
+      width: 280px;
+      height: 90px;
+      background: white;
+      text-align: center;
+      position: absolute;
+      bottom: 0;
+      z-index: 9999; }
+      #oMyGodbuycart .oMyGodbuycartright .oMyGodjiesuan div {
+        width: 280px;
+        height: 40px; }
+        #oMyGodbuycart .oMyGodbuycartright .oMyGodjiesuan div p {
+          width: 135px;
+          height: 40px;
+          float: left;
+          color: #999;
+          font-size: 12px;
+          text-align: left;
+          padding-left: 5px; }
+          #oMyGodbuycart .oMyGodbuycartright .oMyGodjiesuan div p b {
+            font-weight: 900;
+            color: #333; }
+          #oMyGodbuycart .oMyGodbuycartright .oMyGodjiesuan div p span {
+            color: #f00659;
+            font-size: 16px; }
+            #oMyGodbuycart .oMyGodbuycartright .oMyGodjiesuan div p span i {
+              font-size: 14px; }
+      #oMyGodbuycart .oMyGodbuycartright .oMyGodjiesuan input {
+        width: 255px;
+        height: 42px;
+        font-size: 18px;
+        color: #666;
+        background: #f2f2f2;
+        text-align: center;
+        line-height: 42px;
+        outline: none;
+        border: 1px solid #999; }
+
+.oMyGodnavList {
+  display: none;
+  height: 458px;
+  width: 970px;
+  border: 1px solid #eee;
+  border-left: 0;
+  background: white;
+  position: absolute;
+  top: 197px;
+  left: 248px;
+  z-index: 1000; }
+  .oMyGodnavList div {
+    width: 290px;
+    height: 176px;
+    padding-top: 37px;
+    margin: 10px 12px 0 15px;
+    float: left; }
+    .oMyGodnavList div h3 {
+      width: 290px;
+      height: 28px;
+      font-size: 16px;
+      line-height: 28px;
+      color: #333;
+      font-weight: 900;
+      border-bottom: 1px solid #999;
+      margin-bottom: 8px; }
+    .oMyGodnavList div p {
+      width: 290px;
+      height: 139px; }
+      .oMyGodnavList div p span {
+        padding-right: 5px;
+        margin-left: 5px;
+        display: block;
+        float: left;
+        height: 20px;
+        text-align: center;
+        line-height: 20px;
+        border-right: 1px solid #eee;
+        font-size: 12px; }
+        .oMyGodnavList div p span a {
+          color: #666; }
+
+.oMyGodbannernav {
+  display: none;
+  width: 176px;
+  height: 462px;
+  position: absolute;
+  left: 28px;
+  top: 197px;
+  background: #f5f5f5;
+  z-index: 9999; }
+  .oMyGodbannernav ul {
+    width: 220px;
+    background: #f5f5f5; }
+    .oMyGodbannernav ul li {
+      width: 198px;
+      height: 60px;
+      border-bottom: 1px dashed #a0a0a0;
+      padding: 16px 0 0 22px;
+      font-size: 12px;
+      background: #f5f5f5; }
+      .oMyGodbannernav ul li p {
+        margin-bottom: 14px;
+        height: 12px;
+        line-height: 12px; }
+      .oMyGodbannernav ul li .oMyGodbannernavlip a {
+        padding-left: 35px;
+        font-size: 14px;
+        height: 14px;
+        line-height: 14px;
+        color: #070009;
+        background: url(../img/1548c1f27a4_2_6cd4e4b1b96efb57a89c040f7c2aa7db_30x30.png) 0 -6px no-repeat; }
+      .oMyGodbannernav ul li .oMyGodbannernavlip2 a {
+        color: #9c9c9c; }
+      .oMyGodbannernav ul li .oMyGodbannernavlip2 span {
+        color: #9c9c9c; }
+  .oMyGodbannernav .oMyGodbannernavlastli {
+    border: 0; }
+
+#oMyGoddetails {
+  min-height: 1000px;
+  background: #f5f5f5;
+  border-top: 2px solid #ff3259; }
+  #oMyGoddetails .oMyGodsplianjie {
+    width: 970px;
+    height: 25px;
+    padding: 10px 0 10px 20px;
+    background: white;
+    color: #999;
+    font-size: 12px;
+    margin: 0 auto;
+    line-height: 25px;
+    margin-top: 20px;
+    border-bottom: 1px solid #f5f5f5; }
+  #oMyGoddetails .oMyGodproduct {
+    width: 950px;
+    padding: 20px;
+    margin: 0 auto;
+    background: white;
+    padding-top: 25px; }
+    #oMyGoddetails .oMyGodproduct .oMyGodfangda {
+      width: 430px;
+      float: left;
+      position: relative; }
+      #oMyGoddetails .oMyGodproduct .oMyGodfangda .oMyGodjingzi {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 9998;
+        width: 150px;
+        height: 150px;
+        background: #ddd;
+        opacity: 0.5;
+        display: none; }
+      #oMyGoddetails .oMyGodproduct .oMyGodfangda .oMyGodsmalltu {
+        width: 398px;
+        height: 398px;
+        position: relative; }
+        #oMyGoddetails .oMyGodproduct .oMyGodfangda .oMyGodsmalltu .oMyGodsmallzhezhao {
+          width: 398px;
+          height: 398px;
+          position: absolute;
+          z-index: 10000; }
+        #oMyGoddetails .oMyGodproduct .oMyGodfangda .oMyGodsmalltu img {
+          position: absolute;
+          z-index: 0;
+          width: 398px;
+          height: 398px; }
+      #oMyGoddetails .oMyGodproduct .oMyGodfangda .oMyGodsmallb {
+        width: 370px;
+        height: 62px;
+        margin: 10px 0 0 14px;
+        overflow: hidden; }
+        #oMyGoddetails .oMyGodproduct .oMyGodfangda .oMyGodsmallb p {
+          width: 54px;
+          height: 50px;
+          padding: 3px;
+          margin: 3px 0 0 12px;
+          float: left;
+          border: 1px solid white; }
+          #oMyGoddetails .oMyGodproduct .oMyGodfangda .oMyGodsmallb p img {
+            display: block;
+            width: 52px;
+            height: 48px; }
+      #oMyGoddetails .oMyGodproduct .oMyGodfangda p {
+        width: 370px;
+        height: 16px;
+        font-size: 12px;
+        margin-top: 13px; }
+        #oMyGoddetails .oMyGodproduct .oMyGodfangda p span {
+          margin-right: 20px; }
+        #oMyGoddetails .oMyGodproduct .oMyGodfangda p i {
+          margin-left: 10px; }
+        #oMyGoddetails .oMyGodproduct .oMyGodfangda p .oMyGodorange {
+          color: orange; }
+        #oMyGoddetails .oMyGodproduct .oMyGodfangda p .oMyGodshalow {
+          color: #2FB7DC; }
+        #oMyGoddetails .oMyGodproduct .oMyGodfangda p .oMyGodred {
+          color: mediumvioletred; }
+        #oMyGoddetails .oMyGodproduct .oMyGodfangda p .oMyGodblue {
+          color: blue; }
+        #oMyGoddetails .oMyGodproduct .oMyGodfangda p .oMyGodgray {
+          color: gray; }
+      #oMyGoddetails .oMyGodproduct .oMyGodfangda .oMyGodbigtu {
+        display: none;
+        width: 398px;
+        height: 398px;
+        overflow: hidden;
+        position: absolute;
+        right: -390px;
+        top: 0;
+        z-index: 9999; }
+        #oMyGoddetails .oMyGodproduct .oMyGodfangda .oMyGodbigtu img {
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 600px;
+          height: 600px; }
+    #oMyGoddetails .oMyGodproduct .oMyGodxiangqing {
+      width: 520px;
+      float: right; }
+      #oMyGoddetails .oMyGodproduct .oMyGodxiangqing .oMyGodbiaoti {
+        width: 520px;
+        height: 72px;
+        color: #333; }
+        #oMyGoddetails .oMyGodproduct .oMyGodxiangqing .oMyGodbiaoti h1 {
+          font-size: 18px;
+          width: 360px;
+          height: 72px;
+          float: left; }
+          #oMyGoddetails .oMyGodproduct .oMyGodxiangqing .oMyGodbiaoti h1 span {
+            color: #f03468; }
+        #oMyGoddetails .oMyGodproduct .oMyGodxiangqing .oMyGodbiaoti div {
+          margin-left: 5px;
+          float: left;
+          width: 144px;
+          height: 40px;
+          padding-left: 10px;
+          border-left: 1px solid #ddd; }
+          #oMyGoddetails .oMyGodproduct .oMyGodxiangqing .oMyGodbiaoti div span {
+            display: block;
+            width: 40px;
+            height: 40px;
+            float: left;
+            background: red;
+            background: url(../img/1548f5518a7_65_9ab36c2c49db08bcd0a97d84d6a3b45a_42x42.png) center no-repeat;
+            margin-right: 5px; }
+          #oMyGoddetails .oMyGodproduct .oMyGodxiangqing .oMyGodbiaoti div i {
+            display: block;
+            width: 90px;
+            height: 20px;
+            line-height: 20px;
+            font-size: 14px;
+            color: #999; }
+      #oMyGoddetails .oMyGodproduct .oMyGodxiangqing .oMyGodjieshao {
+        margin-top: 30px;
+        width: 520px;
+        line-height: 36px;
+        font-size: 12px;
+        color: #666; }
+      #oMyGoddetails .oMyGodproduct .oMyGodxiangqing .oMyGodjiawei {
+        width: 520px;
+        height: 212px; }
+        #oMyGoddetails .oMyGodproduct .oMyGodxiangqing .oMyGodjiawei .oMyGodjia {
+          width: 520px;
+          height: 40px;
+          line-height: 40px;
+          color: #f03468;
+          font-size: 12px;
+          margin-bottom: 10px; }
+          #oMyGoddetails .oMyGodproduct .oMyGodxiangqing .oMyGodjiawei .oMyGodjia span {
+            font-size: 24px;
+            margin-left: 35px;
+            font-weight: 900; }
+            #oMyGoddetails .oMyGodproduct .oMyGodxiangqing .oMyGodjiawei .oMyGodjia span i {
+              margin-left: 0;
+              color: #f03468; }
+          #oMyGoddetails .oMyGodproduct .oMyGodxiangqing .oMyGodjiawei .oMyGodjia i {
+            color: #999;
+            margin-left: 90px; }
+          #oMyGoddetails .oMyGodproduct .oMyGodxiangqing .oMyGodjiawei .oMyGodjia del {
+            font-size: 14px;
+            color: #666; }
+        #oMyGoddetails .oMyGodproduct .oMyGodxiangqing .oMyGodjiawei .oMyGodshui {
+          width: 520px;
+          height: 14px;
+          font-size: 12px;
+          line-height: 14px;
+          color: #333;
+          margin-top: 5px; }
+          #oMyGoddetails .oMyGodproduct .oMyGodxiangqing .oMyGodjiawei .oMyGodshui i {
+            color: #666; }
+          #oMyGoddetails .oMyGodproduct .oMyGodxiangqing .oMyGodjiawei .oMyGodshui span {
+            margin-left: 57px;
+            color: #f03468; }
+        #oMyGoddetails .oMyGodproduct .oMyGodxiangqing .oMyGodjiawei .oMyGodsay {
+          width: 520px;
+          height: 38px;
+          font-size: 12px;
+          line-height: 38px;
+          color: #666;
+          border-bottom: 1px solid #ddd; }
+          #oMyGoddetails .oMyGodproduct .oMyGodxiangqing .oMyGodjiawei .oMyGodsay i {
+            margin-right: 59px; }
+        #oMyGoddetails .oMyGodproduct .oMyGodxiangqing .oMyGodjiawei .oMyGodyouji {
+          width: 520px;
+          height: 90px;
+          border-bottom: 1px solid #ddd;
+          margin-bottom: 30px; }
+          #oMyGoddetails .oMyGodproduct .oMyGodxiangqing .oMyGodjiawei .oMyGodyouji div {
+            float: left; }
+          #oMyGoddetails .oMyGodproduct .oMyGodxiangqing .oMyGodjiawei .oMyGodyouji .oMyGodyoujileft {
+            width: 124px;
+            height: 70px;
+            border-right: 1px dashed #333;
+            margin-top: 10px;
+            padding: 0 0 0 91px;
+            font-size: 12px; }
+            #oMyGoddetails .oMyGodproduct .oMyGodxiangqing .oMyGodjiawei .oMyGodyouji .oMyGodyoujileft a {
+              color: #333; }
+          #oMyGoddetails .oMyGodproduct .oMyGodxiangqing .oMyGodjiawei .oMyGodyouji .oMyGodyoujiright {
+            width: 296px;
+            height: 60px;
+            margin-top: 10px;
+            padding-left: 8px;
+            font-size: 12px;
+            color: #666; }
+            #oMyGoddetails .oMyGodproduct .oMyGodxiangqing .oMyGodjiawei .oMyGodyouji .oMyGodyoujiright p {
+              margin-bottom: 5px; }
+      #oMyGoddetails .oMyGodproduct .oMyGodxiangqing .oMyGodbuy {
+        border-top: 1px solid #ddd;
+        width: 520px;
+        margin-top: 10px; }
+        #oMyGoddetails .oMyGodproduct .oMyGodxiangqing .oMyGodbuy .oMyGoddaxiao {
+          width: 520px; }
+          #oMyGoddetails .oMyGodproduct .oMyGodxiangqing .oMyGodbuy .oMyGoddaxiao p {
+            margin: 10px 0;
+            width: 520px;
+            height: 30px; }
+            #oMyGoddetails .oMyGodproduct .oMyGodxiangqing .oMyGodbuy .oMyGoddaxiao p i {
+              display: block;
+              float: left;
+              color: #999;
+              margin-right: 60px;
+              font-size: 12px; }
+            #oMyGoddetails .oMyGodproduct .oMyGodxiangqing .oMyGodbuy .oMyGoddaxiao p span {
+              display: block;
+              float: left;
+              margin-right: 5px;
+              border: 1px solid #666;
+              height: 16px;
+              padding: 0 3px;
+              line-height: 16px;
+              font-size: 12px; }
+        #oMyGoddetails .oMyGodproduct .oMyGodxiangqing .oMyGodbuy .oMyGodshuliang {
+          width: 520px;
+          height: 35px;
+          padding-top: 10px;
+          margin-bottom: 5px;
+          position: relative; }
+          #oMyGoddetails .oMyGodproduct .oMyGodxiangqing .oMyGodbuy .oMyGodshuliang img {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            position: absolute;
+            left: 256px;
+            top: 56px;
+            z-index: 200030; }
+          #oMyGoddetails .oMyGodproduct .oMyGodxiangqing .oMyGodbuy .oMyGodshuliang i {
+            display: block;
+            float: left;
+            color: #999;
+            margin-right: 60px;
+            font-size: 12px; }
+          #oMyGoddetails .oMyGodproduct .oMyGodxiangqing .oMyGodbuy .oMyGodshuliang p {
+            width: 81px;
+            height: 26px;
+            float: left; }
+            #oMyGoddetails .oMyGodproduct .oMyGodxiangqing .oMyGodbuy .oMyGodshuliang p span {
+              display: block;
+              float: left;
+              width: 24px;
+              height: 24px;
+              border: 1px solid #999;
+              text-align: center;
+              line-height: 24px;
+              cursor: pointer; }
+            #oMyGoddetails .oMyGodproduct .oMyGodxiangqing .oMyGodbuy .oMyGodshuliang p .oMyGodspsl {
+              border-left: 0;
+              border-right: 0; }
+          #oMyGoddetails .oMyGodproduct .oMyGodxiangqing .oMyGodbuy .oMyGodshuliang .oMyGodyouhuo {
+            color: #222;
+            margin-left: 15px;
+            font-size: 12px; }
+        #oMyGoddetails .oMyGodproduct .oMyGodxiangqing .oMyGodbuy a {
+          display: block;
+          float: left;
+          height: 46px;
+          width: 162px;
+          border: 1px solid #fa4678;
+          text-align: center;
+          line-height: 46px;
+          font-size: 22px;
+          margin-right: 20px;
+          color: #fff;
+          position: relative;
+          background: #fa4678; }
+        #oMyGoddetails .oMyGodproduct .oMyGodxiangqing .oMyGodbuy .oMyGodgoumai {
+          background: #fff1f5;
+          color: #f03468; }
+  #oMyGoddetails .oMyGodworld {
+    width: 990px;
+    height: 50px;
+    padding: 60px 0;
+    margin: 0 auto;
+    background: white; }
+    #oMyGoddetails .oMyGodworld div {
+      float: left;
+      width: 246px;
+      height: 50px;
+      border-right: 1px solid #ddd;
+      text-align: center;
+      line-height: 50px;
+      position: relative;
+      overflow: hidden; }
+      #oMyGoddetails .oMyGodworld div p {
+        width: 246px;
+        height: 25px;
+        font-size: 18px;
+        line-height: 18px;
+        color: #000; }
+      #oMyGoddetails .oMyGodworld div .oMygodtongbu {
+        width: 201px;
+        height: 50px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding-left: 45px;
+        background: white;
+        border: 0;
+        z-index: 999; }
+        #oMyGoddetails .oMyGodworld div .oMygodtongbu .oMyGodxunhuan {
+          width: 247px;
+          height: 50px;
+          position: absolute;
+          left: 0;
+          top: 0;
+          z-index: 3000; }
+        #oMyGoddetails .oMyGodworld div .oMygodtongbu span {
+          display: block;
+          width: 50px;
+          height: 50px;
+          position: absolute;
+          background: url(../img/tip-bg.png) center no-repeat; }
+          #oMyGoddetails .oMyGodworld div .oMygodtongbu span i {
+            font-size: 32px;
+            color: white; }
+        #oMyGoddetails .oMyGodworld div .oMygodtongbu .oMyGodquanqiu {
+          width: 151px;
+          height: 50px;
+          float: left;
+          border: 0;
+          position: absolute;
+          left: 97px; }
+          #oMyGoddetails .oMyGodworld div .oMygodtongbu .oMyGodquanqiu i {
+            display: block;
+            width: 150px;
+            height: 25px;
+            line-height: 25px;
+            font-size: 18px; }
+    #oMyGoddetails .oMyGodworld .oMyGodworldlast {
+      border: 0; }
+  #oMyGoddetails .oMyGodgess {
+    width: 990px;
+    height: 247px;
+    margin: 20px auto 0;
+    padding: 15px 0 10px 0;
+    background: white; }
+    #oMyGoddetails .oMyGodgess ul {
+      padding-left: 20px; }
+      #oMyGoddetails .oMyGodgess ul li {
+        width: 170px;
+        height: 239px;
+        margin-right: 24px;
+        float: left; }
+        #oMyGoddetails .oMyGodgess ul li img {
+          width: 170px;
+          height: 170px; }
+        #oMyGoddetails .oMyGodgess ul li div {
+          width: 165px;
+          height: 28px;
+          line-height: 28px;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          margin-top: 4px;
+          font-size: 12px; }
+        #oMyGoddetails .oMyGodgess ul li p {
+          width: 170px;
+          height: 20px;
+          margin-top: 4px;
+          font-size: 14px;
+          color: #f03468; }
+          #oMyGoddetails .oMyGodgess ul li p span {
+            font-size: 20px;
+            font-weight: 900; }
+  #oMyGoddetails .oMyGodspxq {
+    width: 990px;
+    margin: 0 auto;
+    background: white;
+    margin-top: 30px; }
+    #oMyGoddetails .oMyGodspxq .oMyGodxuanfu {
+      width: 970px;
+      height: 40px;
+      background: #000;
+      padding: 4px 0 0 20px;
+      float: left; }
+      #oMyGoddetails .oMyGodspxq .oMyGodxuanfu h3 {
+        width: 96px;
+        font-size: 14px;
+        height: 40px;
+        padding: 0 20px;
+        background: white;
+        line-height: 40px;
+        text-align: center;
+        color: #f03468;
+        margin-right: 20px;
+        float: left; }
+      #oMyGoddetails .oMyGodspxq .oMyGodxuanfu h4 {
+        width: 96px;
+        font-size: 14px;
+        height: 40px;
+        padding: 0 20px;
+        line-height: 40px;
+        text-align: center;
+        color: white;
+        margin-right: 20px;
+        float: left; }
+      #oMyGoddetails .oMyGodspxq .oMyGodxuanfu .oMyGodxuanfuright {
+        float: right;
+        height: 40px; }
+        #oMyGoddetails .oMyGodspxq .oMyGodxuanfu .oMyGodxuanfuright p {
+          height: 40px;
+          color: #fff;
+          float: left;
+          font-size: 22px;
+          padding-top: 10px; }
+        #oMyGoddetails .oMyGodspxq .oMyGodxuanfu .oMyGodxuanfuright del {
+          display: block;
+          font-size: 22px;
+          float: left;
+          color: #a76c6c;
+          padding-top: 10px; }
+        #oMyGoddetails .oMyGodspxq .oMyGodxuanfu .oMyGodxuanfuright a {
+          display: none;
+          float: left;
+          width: 134px;
+          height: 44px;
+          background: #f03468;
+          text-align: center;
+          line-height: 44px;
+          font-size: 22px;
+          color: #fff;
+          margin-top: -4px; }
+    #oMyGoddetails .oMyGodspxq .oMyGodxiangxi {
+      margin: 0 auto;
+      width: 870px;
+      padding-left: 120px; }
+      #oMyGoddetails .oMyGodspxq .oMyGodxiangxi img {
+        width: 750px;
+        display: block; }
+    #oMyGoddetails .oMyGodspxq .oMyGodpingjia {
+      width: 990px;
+      height: 403px;
+      background: white; }
+      #oMyGoddetails .oMyGodspxq .oMyGodpingjia .oMyGodpjtop {
+        width: 960px;
+        border-bottom: 1px solid #5d013c;
+        margin: 0 auto;
+        position: relative;
+        margin-top: 50px; }
+        #oMyGoddetails .oMyGodspxq .oMyGodpingjia .oMyGodpjtop h6 {
+          position: absolute;
+          left: 275px;
+          top: -18px;
+          z-index: 999;
+          background: #390110;
+          width: 410px;
+          height: 37px;
+          line-height: 37px;
+          text-align: center;
+          font-size: 20px;
+          color: #fff; }
+      #oMyGoddetails .oMyGodspxq .oMyGodpingjia .oMyGodjilv {
+        width: 990px;
+        height: 178px;
+        margin-top: 80px;
+        padding: 10px 0; }
+        #oMyGoddetails .oMyGodspxq .oMyGodpingjia .oMyGodjilv div {
+          float: left;
+          padding-top: 35px; }
+        #oMyGoddetails .oMyGodspxq .oMyGodpingjia .oMyGodjilv .oMyGOdjilvleft {
+          width: 180px;
+          margin-left: 15px; }
+          #oMyGoddetails .oMyGodspxq .oMyGodpingjia .oMyGodjilv .oMyGOdjilvleft span {
+            display: block;
+            width: 180px;
+            height: 50px;
+            font-size: 12px;
+            color: #f03468;
+            text-align: center;
+            line-height: 50px; }
+            #oMyGoddetails .oMyGodspxq .oMyGodpingjia .oMyGodjilv .oMyGOdjilvleft span i {
+              font-size: 36px; }
+          #oMyGoddetails .oMyGodspxq .oMyGodpingjia .oMyGodjilv .oMyGOdjilvleft p {
+            width: 180px;
+            height: 20px;
+            text-align: center;
+            line-height: 20px;
+            font-size: 12px;
+            color: #333; }
+        #oMyGoddetails .oMyGodspxq .oMyGodpingjia .oMyGodjilv .oMyGodjilvcenter {
+          padding: 35px 94px 15px 40px;
+          width: 256px;
+          height: 128px; }
+          #oMyGoddetails .oMyGodspxq .oMyGodpingjia .oMyGodjilv .oMyGodjilvcenter p {
+            width: 256px;
+            height: 16px;
+            margin-bottom: 20px; }
+            #oMyGoddetails .oMyGodspxq .oMyGodpingjia .oMyGodjilv .oMyGodjilvcenter p span {
+              display: block;
+              width: 190px;
+              float: left;
+              height: 16px;
+              border-radius: 8px;
+              background: #ddd; }
+            #oMyGoddetails .oMyGodspxq .oMyGodpingjia .oMyGodjilv .oMyGodjilvcenter p i {
+              display: block;
+              font-size: 14px;
+              text-align: center;
+              line-height: 16px;
+              width: 56px;
+              height: 16px;
+              margin-left: 10px;
+              float: left; }
+        #oMyGoddetails .oMyGodspxq .oMyGodpingjia .oMyGodjilv .oMyGodjilvright {
+          width: 405px;
+          height: 178px;
+          padding-top: 38px; }
+          #oMyGoddetails .oMyGodspxq .oMyGodpingjia .oMyGodjilv .oMyGodjilvright p {
+            width: 405px;
+            height: 40px;
+            line-height: 40px;
+            margin-bottom: 7px;
+            color: #333;
+            font-size: 14px;
+            text-align: center; }
+          #oMyGoddetails .oMyGodspxq .oMyGodpingjia .oMyGodjilv .oMyGodjilvright a {
+            display: block;
+            background: #f03468;
+            width: 130px;
+            height: 26px;
+            line-height: 26px;
+            padding: 0 5px;
+            color: #fff;
+            font-size: 14px;
+            text-align: center;
+            margin: 0 auto; }
+      #oMyGoddetails .oMyGodspxq .oMyGodpingjia .oMyGodhaoping {
+        width: 950px;
+        height: 35px;
+        padding: 5px 0 0 10px;
+        margin: 0 auto;
+        background: #f5f5f5; }
+        #oMyGoddetails .oMyGodspxq .oMyGodpingjia .oMyGodhaoping a {
+          float: left;
+          margin-top: -23px;
+          width: 100px;
+          height: 35px;
+          color: #666;
+          text-align: center;
+          line-height: 35px;
+          font-size: 14px; }
+        #oMyGoddetails .oMyGodspxq .oMyGodpingjia .oMyGodhaoping .oMyGodfirstp {
+          background: white; }
+      #oMyGoddetails .oMyGodspxq .oMyGodpingjia .oMyGodkehupj {
+        width: 960px;
+        height: 84px;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 84px;
+        font-size: 14px;
+        color: #999; }
+  #oMyGoddetails .oMyGodvisit {
+    width: 990px;
+    height: 170px;
+    background: white;
+    margin: 20px auto; }
+    #oMyGoddetails .oMyGodvisit h5 {
+      width: 970px;
+      height: 20px;
+      padding: 10px;
+      line-height: 20px;
+      font-size: 14px;
+      color: #666; }
+    #oMyGoddetails .oMyGodvisit .oMyGodkanguo {
+      width: 970px;
+      height: 110px;
+      padding: 10px; }
+      #oMyGoddetails .oMyGodvisit .oMyGodkanguo dl {
+        width: 105px;
+        height: 76px;
+        float: left;
+        margin-right: 5px; }
+        #oMyGoddetails .oMyGodvisit .oMyGodkanguo dl dt {
+          width: 76px;
+          height: 76px;
+          text-align: center; }
+          #oMyGoddetails .oMyGodvisit .oMyGodkanguo dl dt img {
+            width: 70px;
+            height: 70px; }
+        #oMyGoddetails .oMyGodvisit .oMyGodkanguo dl dd {
+          width: 76px;
+          height: 24px;
+          line-height: 24px;
+          font-size: 18px;
+          color: #f03468; }
+
+/*# sourceMappingURL=details.css.map */

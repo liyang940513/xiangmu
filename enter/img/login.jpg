@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>用户登录-奥买家-更近更贴心</title>
+	<meta name="pageid" content="1.9" />
+ 	<meta charset="utf-8" />
+<meta name="renderer" content="webkit" /> 
+<link rel="dns-prefetch" href="//s1.aomygodstatic.com" />
+<link rel="dns-prefetch" href="//s3.aomygodstatic.com" />
+<link rel="dns-prefetch" href="//img0.aomygodstatic.com" />
+<link rel="dns-prefetch" href="//img1.aomygodstatic.com" />
+<link rel="dns-prefetch" href="//img2.aomygodstatic.com" />
+<link rel="dns-prefetch" href="//img3.aomygodstatic.com" />
+<link rel="dns-prefetch" href="//img4.aomygodstatic.com" />
+<link rel="dns-prefetch" href="//img04.aomygod.com" />
+<link rel="dns-prefetch" href="//static5.aomygod.com" />
+
+<script>
+!function($cfg){
+var g=function(k,d,p){return"//"+k+"."+d+(p?"/"+p:"")};
+var t="http:"!==location.protocol,i=t?"ssl":"s1",d="aomygod.com",s="aomygodstatic.com";
+var list=[
+  "analysis","app","cart","g","help","i","item","m","safe","search","settle","shop","shopadmin","spu","ssl","www",
+  "api.cart","api.mall","api.ms","api.search","api.sleuth"
+];
+var l=list.length,k,p=$cfg.paths={};
+while(l--)p[k=list[l]]=g(k, d);
+p["@"]=d;
+p["img"]=g("img0",s);
+p["js"]=g(i,s);
+p["css"]=g(i,s);
+t&&(p["api.mall"]=g("ssl",d,"apimall"));
+}(window.$PAGE_DATA||(window.$PAGE_DATA={}));
+</script>
+<script>
+// global track api for cps
+(function(c,a,b){/\btk=[^&]+/.test(a.search)&&((new Image).src="//analysis.aomygod.com/track/img?from="+b(a.href)+"&refer="+b(c.referrer))})(document,location,encodeURIComponent);
+</script>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="baidu-site-verification" content="TzYdAmsaB7" />
+<meta name="360-site-verification" content="7037180792be1878bfe99e4098315e02" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
+<script type='text/javascript'>
+
+
+        function getCookie(c_name) {
+            if (document.cookie.length > 0) {
+                c_start = document.cookie.indexOf(c_name + "=")
+                if (c_start != -1) {
+                    c_start = c_start + c_name.length + 1
+                    c_end = document.cookie.indexOf(";", c_start)
+                    if (c_end == -1) c_end = document.cookie.length
+                    return unescape(document.cookie.substring(c_start, c_end))
+                }
+            }
+            return ""
+        }   
+
+  </script><script>!function() {
+var r, s = navigator.userAgent.match(/MSIE\s([^;]*)/);
+s && s[1] && (r = parseInt(s[1], 10)), 8 > r && !function(r, s, t) {
+r.write('<link href="//' + s + "/pub/module/browser/1.0.0/browser.css?v=" + t + '" rel="stylesheet"/>'),
+r.write('<script src="//' + s + "/pub/module/browser/1.0.0/browser.js?v=" + t + '"></sc'+'ript>');
+}(document, ("http:" == location.protocol ? "s3" : "ssl") + ".aomygodstatic.com", "v1");
+}();</script><style>
+.ui-mini-bar #jNormalKefu{display:none;}
+.ui-mini-bar #jElectricKefu{display:none;}
+</style>	<!--页面私有css begin-->
+	<link rel="stylesheet" href="//ssl.aomygodstatic.com/member/css/passport/login.css?v=32cef67aa28e7dcd">
+	<!--页面私有css end-->
+</head>
+<body>
+	<div class="head">
+		<div class="login w990">
+			<a href="http://www.aomygod.com" class="hd f-l">
+				<img alt="" src="//ssl.aomygodstatic.com/member/img/login/logo-login.png?v=bcca1a05bb1e7399">
+			</a>
+			<span class="bd f-l">欢迎登录</span>
+			<span class="ft f-r">
+				<label>没有账号？</label>
+				<a href="register?returnUrl=http://item.aomygod.com/20275000088.html" data-bpm="3.1.1.1.37.0" class="barder" >立即注册</a>
+                <a target="_blank" href="http://help.aomygod.com/">帮助中心</a>
+			</span>
+		</div>
+	</div>
+	<div class="middle">
+		<div class="w990">
+			<div id="jAd"></div>
+			
+			<div class="login-panel">
+				<div class="hd" id="jTitleLogin">
+					<i class="iconfont" id="jCoordinate">&#xe614;</i>
+					<span class="hover" id="juserNameLogin">账号登录</span>
+					<span id="jPhoneLogin">手机动态码登录</span>
+				</div>
+				<div class="bd">
+					<ul id="jLoginSwitch">
+						<li>
+							<form method="post" id="jForm" autocomplete="off">
+								<div class="txt-box txt-box-margin">
+									<label for="loginName" class="tips">手机号码/邮箱/用户名</label>
+									<input id="loginName" name="loginName" type="text" value="" class="txt"  tabindex="1">
+									<em class="iconfont">&#xe61a;</em>
+								</div>
+								<div class="txt-box">
+									<label for="password" class="tips">登录密码</label>
+									<input id="password" name="password" type="password" class="txt auto-password-check-handle" maxlength="20" tabindex="2"/>
+									<em class="iconfont">&#xe619;</em>
+								</div>
+								<div class="txt-box txt-box-captcha-verify clearfix">
+									<label for="captchaCode" class="tips">验证码</label>
+									<input id="captchaCode" name="captchaCode" type="text" class="txt txt-code" maxlength="4" tabindex="3">
+									<img src="" title="点击更换验证码" class="img-verify" data-type="PC_LOGIN">
+									<span class="change-img">看不清楚?<a href="javascript:;">换一个</a></span>
+									<em class="iconfont">&#xe609;</em>
+								</div>
+								<div class="txt-remember clearfix">
+									<div class="f-l">
+										<input type="checkbox" id="autoLogin" name="autoLogin" tabindex="5"><label for="autoLogin">2周内自动登录</label>
+									</div>
+									<div class="f-r">
+										<a href="forgotPassword" data-bpm="3.1.1.1.41.0">忘记密码?</a>
+									</div>
+								</div>
+								<div class="txt-btn txt-btn-height">
+									<input type="hidden" name="returnUrl" value="http://item.aomygod.com/20275000088.html" />
+									<input type="submit" class="btn btn-disabled" id="jSubmit" value="正在加载中..." data-bpm="3.1.1.1.36.0" disabled="disabled" />
+								</div>
+							</form>
+						</li>
+						<li>
+							<form method="post" id="jFormPhone">
+								<div class="txt-box txt-box-margin">
+									<label for="loginName2" class="tips">请输入手机号码</label>
+									<input id="loginName2" name="mobile" type="text" value="" class="txt">
+									<em class="iconfont">&#xe61a;</em>
+								</div>
+								<div class="txt-box txt-code-captcha-verify clearfix">
+									<label for="captchaCode2" class="tips">验证码</label>
+									<input id="captchaCode2" name="captchaCode" type="text" class="txt txt-code"  maxlength="4" tabindex="3">
+									<img src="" title="点击更换验证码" class="img-verify" data-type="PC_MOBILE_LOGIN">
+									<span class="change-img">看不清楚?<a href="javascript:;">换一个</a></span>
+									<em class="iconfont">&#xe609;</em>
+								</div>
+								<div class="txt-box">
+									<label for="verifyCode" class="tips">短信动态验证码</label>
+									<input id="verifyCode" name="verifyCode" type="text" class="txt txt-code-mb"/>
+									<input type="button" id="jCold" class="btn-code" value="获取短信验证码"/>
+									<em class="iconfont">&#xe609;</em>
+								</div>
+								<div class="txt-btn">
+									<input type="hidden" name="returnUrl" value="http://item.aomygod.com/20275000088.html" />
+									<input type="submit" class="btn btn-disabled" id="jLogBet" value="正在加载中..." disabled="disabled" />
+								</div>
+								<div class="txt-forgot">
+									注意：未注册过奥买家的手机号在首次登录时将自动完成注册，使用该登录方式代表您已接受<a href="http://help.aomygod.com/help_147.html" target="_blank">《会员注册协议》</a>
+								</div>
+							</form>
+						</li>
+					</ul>
+				</div>
+				<div class="ft">
+					<div class="title">直接使用以下账号登录</div>
+					<div class="quick-login">
+						<a class="iconfont qq" data-bpm="3.1.1.1.39.0" href="https://ssl.aomygod.com/passport/oauth2/qq?returnUrl=http://item.aomygod.com/20275000088.html" title="使用QQ登录">&#xe606;</a>
+						<a class="iconfont weixin" data-bpm="3.1.1.1.40.0" href="https://ssl.aomygod.com/passport/oauth2/weixin?returnUrl=http://item.aomygod.com/20275000088.html" title="使用微信扫码登录">&#xe618;</a>
+						<a class="iconfont alipay" data-bpm="3.1.1.1.33.0" href="https://ssl.aomygod.com/passport/oauth2/alipay?returnUrl=http://item.aomygod.com/20275000088.html" title="使用支付宝登录">&#xe602;</a>
+						<a class="iconfont sina" data-bpm="3.1.1.1.38.0" href="https://ssl.aomygod.com/passport/oauth2/sina?returnUrl=http://item.aomygod.com/20275000088.html" title="使用新浪微博登录">&#xe604;</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+<!--footer begin-->
+<div class="footer">
+	<p class="">
+		<a href="http://help.aomygod.com/help_170.html" target="_blank">关于奥买家</a><span>|</span>
+        <a href="http://jobs.51job.com/all/co3782482.html" target="_blank">诚聘英才</a><span>|</span>
+        <a href="http://help.aomygod.com/help_171.html" target="_blank">联系我们</a>
+    </p>
+	<p class="">粤ICP备15091122号-1<span>|</span>Copyright© 奥买家  2013-2016，All Rights Reserved</p>
+</div>
+<!--footer end-->
+<script src="//ssl.aomygodstatic.com/lib/require/2.1/require.js"></script>
+<script src="//ssl.aomygodstatic.com/member/js/app.js"></script>	<script>
+		require(['conf/login']);
+	</script>
+<script>
+(function(f,c,d,e,g,a,b){a=c.createElement(d);b=c.getElementsByTagName(d)[0];a.async=1;a.src=e;b.parentNode.insertBefore(a,b)
+})(window,document,"script","//"+(location.protocol=="http:"?"s1":"ssl")+".aomygodstatic.com/tracer/bpm.js?v=1.0.6","bpm");
+</script>
+<!-- *** global tracker installations *** -->
+<style>cnzz_stat_icon_1259188569,a[title="站长统计"]{display:none;}</style>
+<script>
+var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1259188569'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1259188569' type='text/javascript' async='async' defer='defer'%3E%3C/script%3E"));
+console.log(2222)
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?8bfea35146f023c8454cd704b9562235";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script></body>
+</html>

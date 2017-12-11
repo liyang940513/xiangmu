@@ -1,0 +1,173 @@
+@charset "UTF-8";
+html, body, p, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, legend, fieldset, img, input, div, a, u, i {
+  margin: 0;
+  padding: 0;
+  font-family: "宋体"; }
+
+ul, ol, li {
+  list-style: none; }
+
+a, u {
+  text-decoration: none; }
+
+i, em {
+  font-style: normal; }
+
+b, strong {
+  font-weight: 100; }
+
+a, h1, h2, h3, h4, h5, h6 {
+  font-weight: 100; }
+
+.clear:after {
+  content: "";
+  height: 0;
+  overflow: hidden;
+  clear: both;
+  visibility: hidden;
+  display: block; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+/*头部区域*/
+#oMyGodTop {
+  height: 90px; }
+  #oMyGodTop .oMyGodTopa-con {
+    width: 965px;
+    height: 65px;
+    margin: 0 auto;
+    padding-top: 25px; }
+    #oMyGodTop .oMyGodTopa-con h1 {
+      width: 600px;
+      height: 64px;
+      float: left; }
+      #oMyGodTop .oMyGodTopa-con h1 a {
+        display: block;
+        width: 200px;
+        height: 44px;
+        float: left; }
+      #oMyGodTop .oMyGodTopa-con h1 span {
+        width: 100px;
+        font-size: 22px;
+        color: #666;
+        padding-left: 9px;
+        border-left: 1px solid #f2f2f2; }
+    #oMyGodTop .oMyGodTopa-con p {
+      width: 260px;
+      height: 34px;
+      float: right;
+      text-align: right;
+      padding-top: 30px;
+      font-size: 12px; }
+      #oMyGodTop .oMyGodTopa-con p i a {
+        color: #999; }
+      #oMyGodTop .oMyGodTopa-con p span {
+        cursor: pointer; }
+        #oMyGodTop .oMyGodTopa-con p span a {
+          color: #333; }
+
+#oMyGodzhuce {
+  height: 350px; }
+  #oMyGodzhuce .oMyGodzhuce-con {
+    width: 930px;
+    height: 270px;
+    margin: 0 auto;
+    border: 1px solid #999;
+    padding: 80px 0 0 60px; }
+    #oMyGodzhuce .oMyGodzhuce-con form {
+      width: 316px;
+      height: 270px;
+      position: relative;
+      left: 272px;
+      top: 0; }
+      #oMyGodzhuce .oMyGodzhuce-con form span {
+        display: block;
+        width: 316px;
+        height: 25px;
+        background: white;
+        float: left;
+        font-size: 12px;
+        color: #f03468; }
+        #oMyGodzhuce .oMyGodzhuce-con form span em {
+          display: block;
+          font-size: 16px;
+          width: 16px;
+          height: 16px;
+          border-radius: 50%;
+          background: #f03468;
+          color: white;
+          text-align: center;
+          line-height: 14px; }
+      #oMyGodzhuce .oMyGodzhuce-con form i {
+        display: block;
+        width: 40px;
+        height: 38px;
+        float: left;
+        color: #999;
+        text-align: center;
+        line-height: 38px;
+        border: 1px solid #999;
+        border-right: 0; }
+      #oMyGodzhuce .oMyGodzhuce-con form input {
+        float: left;
+        width: 274px;
+        height: 38px;
+        border: 1px solid #999;
+        border-left: 0;
+        outline: none; }
+      #oMyGodzhuce .oMyGodzhuce-con form p {
+        float: left;
+        width: 316px;
+        height: 30px;
+        font-size: 12px; }
+        #oMyGodzhuce .oMyGodzhuce-con form p a {
+          color: #f03468; }
+      #oMyGodzhuce .oMyGodzhuce-con form .oMyGodbtn {
+        width: 316px;
+        height: 40px;
+        background: #fa4678;
+        text-align: center;
+        line-height: 40px;
+        color: #fff;
+        border: 0;
+        font-size: 16px;
+        border-radius: 4px; }
+      #oMyGodzhuce .oMyGodzhuce-con form .oMyGodqiangdujiance {
+        display: none;
+        width: 230px;
+        height: 14px;
+        font-size: 14px;
+        color: #999;
+        position: absolute;
+        right: -244px;
+        bottom: 180px; }
+        #oMyGodzhuce .oMyGodzhuce-con form .oMyGodqiangdujiance div {
+          width: 70px;
+          height: 14px;
+          float: left;
+          font-size: 14px;
+          color: #999999; }
+        #oMyGodzhuce .oMyGodzhuce-con form .oMyGodqiangdujiance p {
+          width: 50px;
+          height: 14px;
+          font-size: 14px;
+          color: white;
+          background: #999;
+          line-height: 14px;
+          text-align: center;
+          margin-right: 3px; }
+
+#oMyGodbottom {
+  width: 900px;
+  height: 52px;
+  padding-top: 48px;
+  margin: 0 auto;
+  text-align: center;
+  color: #999;
+  font-size: 12px; }
+  #oMyGodbottom p a {
+    color: #999; }
+
+/*# sourceMappingURL=enroll.css.map */

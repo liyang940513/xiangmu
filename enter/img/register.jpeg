@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>用户注册-奥买家-更近更贴心</title>
+	<meta name="pageid" content="1.10" />
+	<meta charset="utf-8" />
+<meta name="renderer" content="webkit" /> 
+<link rel="dns-prefetch" href="//s1.aomygodstatic.com" />
+<link rel="dns-prefetch" href="//s3.aomygodstatic.com" />
+<link rel="dns-prefetch" href="//img0.aomygodstatic.com" />
+<link rel="dns-prefetch" href="//img1.aomygodstatic.com" />
+<link rel="dns-prefetch" href="//img2.aomygodstatic.com" />
+<link rel="dns-prefetch" href="//img3.aomygodstatic.com" />
+<link rel="dns-prefetch" href="//img4.aomygodstatic.com" />
+<link rel="dns-prefetch" href="//img04.aomygod.com" />
+<link rel="dns-prefetch" href="//static5.aomygod.com" />
+
+<script>
+!function($cfg){
+var g=function(k,d,p){return"//"+k+"."+d+(p?"/"+p:"")};
+var t="http:"!==location.protocol,i=t?"ssl":"s1",d="aomygod.com",s="aomygodstatic.com";
+var list=[
+  "analysis","app","cart","g","help","i","item","m","safe","search","settle","shop","shopadmin","spu","ssl","www",
+  "api.cart","api.mall","api.ms","api.search","api.sleuth"
+];
+var l=list.length,k,p=$cfg.paths={};
+while(l--)p[k=list[l]]=g(k, d);
+p["@"]=d;
+p["img"]=g("img0",s);
+p["js"]=g(i,s);
+p["css"]=g(i,s);
+t&&(p["api.mall"]=g("ssl",d,"apimall"));
+}(window.$PAGE_DATA||(window.$PAGE_DATA={}));
+</script>
+<script>
+// global track api for cps
+(function(c,a,b){/\btk=[^&]+/.test(a.search)&&((new Image).src="//analysis.aomygod.com/track/img?from="+b(a.href)+"&refer="+b(c.referrer))})(document,location,encodeURIComponent);
+</script>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="baidu-site-verification" content="TzYdAmsaB7" />
+<meta name="360-site-verification" content="7037180792be1878bfe99e4098315e02" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
+<script type='text/javascript'>
+
+
+        function getCookie(c_name) {
+            if (document.cookie.length > 0) {
+                c_start = document.cookie.indexOf(c_name + "=")
+                if (c_start != -1) {
+                    c_start = c_start + c_name.length + 1
+                    c_end = document.cookie.indexOf(";", c_start)
+                    if (c_end == -1) c_end = document.cookie.length
+                    return unescape(document.cookie.substring(c_start, c_end))
+                }
+            }
+            return ""
+        }   
+
+  </script><script>!function() {
+var r, s = navigator.userAgent.match(/MSIE\s([^;]*)/);
+s && s[1] && (r = parseInt(s[1], 10)), 8 > r && !function(r, s, t) {
+r.write('<link href="//' + s + "/pub/module/browser/1.0.0/browser.css?v=" + t + '" rel="stylesheet"/>'),
+r.write('<script src="//' + s + "/pub/module/browser/1.0.0/browser.js?v=" + t + '"></sc'+'ript>');
+}(document, ("http:" == location.protocol ? "s3" : "ssl") + ".aomygodstatic.com", "v1");
+}();</script><style>
+.ui-mini-bar #jNormalKefu{display:none;}
+.ui-mini-bar #jElectricKefu{display:none;}
+</style>	<!--页面私有css begin-->
+	<link rel="stylesheet" href="//ssl.aomygodstatic.com/member/css/passport/reg.css?v=944aea6d0680ee3f">
+	<!--页面私有css end-->
+</head>
+<body>
+	<div class="head">
+		<div class="login w990">
+			<a href="http://www.aomygod.com" class="hd f-l">
+				<img alt="" src="//ssl.aomygodstatic.com/member/img/login/logo-login.png?v=bcca1a05bb1e7399">
+			</a>
+			<span class="bd f-l">欢迎注册</span>
+			<span class="ft f-r">
+				<label>已有账号？</label>
+				<a href="login" class="barder">立即登录</a>
+                <a target="_blank" href="http://help.aomygod.com/">帮助中心</a>
+			</span>
+		</div>
+	</div>
+	<!--content begin-->
+	<div class="w990 box">
+		<form action="/member-save_rec.html" method="post" id="jForm">
+			<div class="txt-box txt-box-user">
+				<label for="loginName" class="tips">手机号码</label>
+				<input id="loginName" name="loginName" type="text" value="" class="txt" autocomplete="off" maxlength="40" data-validators="minLength:6 maxLength:40 userName illegal">
+				<em class="iconfont">&#xe61a;</em>
+			</div>
+			<div class="txt-box txt-box-pw">
+				<label for="password" class="tips">密码由6-20个数字和字母的组合</label>
+				<input id="password" name="password" type="password" class="txt auto-password-check-handle" maxlength="20" data-validators="minLength:6 maxLength:20 password" />
+				<em class="iconfont">&#xe608;</em>
+				<div class="clearfix pw-stg-box">
+					<span class="f-l">安全程度:</span>
+					<ul class="f-l pw-stg">
+						<li class="stg-level-1">弱</li>
+						<li class="stg-level-2">中</li>
+						<li class="stg-level-3">强</li>
+					</ul>
+				</div>
+			</div>
+			<div class="txt-box txt-box-pw txt-box-pw2">
+				<label for="password1" class="tips">再次输入密码</label>
+				<input id="password1" name="password1" type="password" class="txt" maxlength="20"/>
+				<em class="iconfont">&#xe608;</em>
+			</div>
+
+			<div class="txt-box txt-box-email">
+				<label for="email" class="tips">请填写常用邮箱地址</label>
+				<input id="email" name="email" type="text" class="txt" autocomplete="off" >
+				<em class="iconfont">&#xe607;</em>
+			</div>
+
+			<div class="txt-box txt-box-captcha-verify clearfix">
+				<label for="captchaCode" class="tips">验证码</label>
+				<input id="captchaCode" name="captchaCode" type="text" class="txt code-text"  maxlength="4">
+				<img src="" title="点击更换验证码" class="img-verify" data-type="PC_REGISTER">
+				<span class="change-img">看不清楚?<a href="javascript:;">换一个</a></span>
+				<em class="iconfont">&#xe609;</em>
+			</div>
+
+			<div class="txt-box txt-box-msg-verify clearfix">
+				<label for="verifyCode" class="tips">短信验证码</label>
+				<em class="iconfont">&#xe609;</em>
+				<input id="verifyCode" name="verifyCode" type="text" class="txt code-text2"  maxlength="6">
+				<input type="button" value="获取短信验证码" class="btn-code" id="jSendMsg" data-sending-txt="获取短信验证码" />
+			</div>
+
+			<div class="txt-box txt-box-email-verify clearfix">
+				<label for="verifyCodeEmail" class="tips">邮箱验证码</label>
+				<em class="iconfont">&#xe609;</em>
+				<input id="verifyCodeEmail" name="verifyCodeEmail" type="text" class="txt code-text2"  maxlength="6">
+				<input type="button" value="获取邮箱验证码" class="btn-code" id="jSendMsgEmail" data-sending-txt="获取邮箱验证码">
+			</div>	
+
+			<div class="txt-pro">
+				<a href="http://help.aomygod.com/help_147.html" target="_blank">会员注册协议</a>
+			</div>
+			<input type="hidden" name="returnUrl" value="http://item.aomygod.com/20275000088.html" />
+			<input type="submit" class="btn btn-disabled" id="jSubmit" data-bpm="3.1.1.1.35.0" value="正在加载中..." disabled="disabled" />
+		</form>	
+	</div>
+	<!--content end-->
+<!--footer begin-->
+<div class="footer">
+	<p class="">
+		<a href="http://help.aomygod.com/help_170.html" target="_blank">关于奥买家</a><span>|</span>
+        <a href="http://jobs.51job.com/all/co3782482.html" target="_blank">诚聘英才</a><span>|</span>
+        <a href="http://help.aomygod.com/help_171.html" target="_blank">联系我们</a>
+    </p>
+	<p class="">粤ICP备15091122号-1<span>|</span>Copyright© 奥买家  2013-2016，All Rights Reserved</p>
+</div>
+<!--footer end-->
+<script src="//ssl.aomygodstatic.com/lib/require/2.1/require.js"></script>
+<script src="//ssl.aomygodstatic.com/member/js/app.js"></script>	<!--页面私有js begin-->
+	<script>
+		require(['conf/reg']);
+	</script>
+<script>
+(function(f,c,d,e,g,a,b){a=c.createElement(d);b=c.getElementsByTagName(d)[0];a.async=1;a.src=e;b.parentNode.insertBefore(a,b)
+})(window,document,"script","//"+(location.protocol=="http:"?"s1":"ssl")+".aomygodstatic.com/tracer/bpm.js?v=1.0.6","bpm");
+</script>
+<!-- *** global tracker installations *** -->
+<style>cnzz_stat_icon_1259188569,a[title="站长统计"]{display:none;}</style>
+<script>
+var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1259188569'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1259188569' type='text/javascript' async='async' defer='defer'%3E%3C/script%3E"));
+console.log(2222)
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?8bfea35146f023c8454cd704b9562235";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>	<!--页面私有js end-->
+</body>
+</html>

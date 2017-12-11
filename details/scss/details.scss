@@ -1,0 +1,1665 @@
+@import "public";
+//头部区域
+#oMyGodtop-con{height:34px;border-bottom:1px solid #eee;background:#f5f5f5;}
+.oMyGodtop{height:34px;width:1200px;margin:0 auto;}
+//头部左侧
+.oMyGodtopLeft{
+  position:relative;
+  width:417px;
+  height:34px;
+  float:left;
+  .oMyGodwelcome{
+    width:262px;
+    height:22px;
+    padding-top:10px;
+  }
+  p{
+    font-size:12px;
+    color:#656565;
+    a{
+      color:#f74a2c;
+      margin-left:4px;
+      margin-right:10px;
+    }
+  }
+  .oMyGodaddress{
+    float:left;
+    width:153px;
+    height:26px;
+    border:1px solid #e1e1e1;
+    border-radius:4px;
+    background:white;
+    position:relative;
+    top:-29px;
+    left:257px;
+    z-index:1000;
+    span{
+      display:block;
+      width:45px;
+      height:26px;
+      line-height:26px;
+      float:left;
+      text-align:center;
+    }
+    i{
+      display:block;
+      width:0;
+      height:0;
+      border:6px solid transparent;
+      border-top:6px solid #333;
+      position:absolute;
+      right:6px;
+      top:11px;
+    }
+  }
+  //这里是配送地址的样式区。需要再改
+  .oMyGodaddressafter{
+    display:none;
+    padding:10px;
+    min-height:100px;
+    width:370px;
+    padding:10px;
+    background:white;
+    border-radius:2px;
+    border:1px solid #e1e1e1;
+    position:absolute;
+    left:257px;
+    top:27px;
+    z-index:999;
+    .oMyGodchoose{
+      width:350px;
+      height:30px;
+      margin:0 8px;
+      border-bottom:1px solid #edd28b;
+      z-index:0;
+      div{
+        width:70px;
+        height:30px;
+        margin-right:5px;
+        border:1px solid #edd28b;
+        float:left;
+        border-radius:4px;
+        border-bottom:0;
+        position:relative;
+        line-height:30px;
+        padding-left:10px;
+        opacity:0.3;
+        cursor:pointer;
+        i{
+          display:block;
+          width:0;
+          height:0;
+          border:6px solid transparent;
+          border-top:6px solid #333;
+          position:absolute;
+          right:6px;
+          top:11px;
+        }
+      }
+      .oMyGodbianhuan{
+        opacity:1;
+      }
+    }
+    .oMyGodcountry{
+      display:none;
+      width:350px;
+      height:200px;
+      margin:10px 8px;
+      p{
+        width:80px;
+        height:30px;
+        line-height:30px;
+        font-size:12px;
+        float:left;
+        margin:5px 5px 0 0;
+        text-align:center;
+      }
+    }
+  }
+}
+//右侧列表
+.oMyGodtopRight {
+  width: 380px;
+  height: 34px;
+  float: right;
+  position:relative;
+  //这里是手机版二维码的下拉菜单。
+  .oMyGodtopPhone{
+    display:none;
+    overflow:hidden;
+    width:127px;
+    height:127px;
+    position:absolute;
+    right:126px;
+    top:33px;
+    background:white;
+    padding-top:12px;
+    text-align:center;
+    border:1px solid #eee;
+    z-index:999;
+    img{
+      width:115px;
+      height:115px;
+    }
+  }
+  li {
+    font-size: 12px;
+    height: 21px;
+    float: left;
+    line-height: 12px;
+    background: url(../../index/img/beijingtiao_03.gif) right 12px no-repeat;
+    a{
+      color:#666;
+    }
+  }
+  .oMyGodtopRightli1 {
+    height:34px;
+    //这里是个人中心下拉菜单。等会儿继续改
+    div{
+      display:none;
+      overflow:hidden;
+      width:90px;
+      padding:5px 0 10px 0;
+      position:absolute;
+      top:34px;
+      left:-1px;
+      font-size:12px;
+      background:white;
+      z-index:999;
+      border:1px solid #eee;
+      border-top:0;
+      a{
+        font-size:12px;
+        color:#666;
+        display:block;
+        height:12px;
+        line-height:14px;
+        padding-bottom:8px;
+      }
+    }
+    a {
+      display: block;
+      width: 79px;
+      height: 12px;
+      padding: 9px 0 0 11px;
+      i {
+        display: inline-block;
+        width: 10px;
+        height: 12px;
+        background: url(../../index/img/icon_index.png) -2px -1px no-repeat;
+        margin: 0 0 0 9px;
+      }
+    }
+  }
+  .oMyGodtopRightli2 {
+    padding: 11px 11px 0 11px;
+  }
+  .oMyGodtopRightli3 {
+    z-index:1000;
+    padding: 13px 11px 0 31px;
+    position: relative;
+    a {
+      i {
+        display: inline-block;
+        position: absolute;
+        left: 15px;
+        top: 9px;
+        width: 10px;
+        height: 16px;
+        background: url(../../index/img/icon_index.png) -4px -47px no-repeat;
+      }
+    }
+  }
+  .oMyGodtopRightli4 {
+    padding: 11px 11px 0 26px;
+    position: relative;
+    background: 0;
+    a {
+      i {
+        display: inline-block;
+        position: absolute;
+        left: 12px;
+        top: 11px;
+        width: 13px;
+        height: 12px;
+        background: url(../../index/img/icon_index.png) -3px -66px no-repeat;
+      }
+      span {
+        font-size: 12px;
+        color: #fb463d;
+      }
+    }
+  }
+}
+//logo区域
+#oMyGodlogo-con{
+  height:133px;
+  background:white;
+}
+.oMyGodlogo{
+  height:133px;
+  width:1200px;
+  margin:0 auto;
+  h1{
+    width:361px;
+    height:110px;
+    float:left;
+    margin-right:89px;
+    margin-top:5px;
+  }
+  .oMyGodSearch{
+    width:394px;
+    height:50px;
+    float:left;
+    margin-top:45px;
+    position:relative;
+    .oMyGodtext{
+      width:317px;
+      height:26px;
+      border:2px solid #fb463d;
+      outline:none;
+      color:#999;
+      padding-left:5px;
+      font-size:14px;
+    }
+    .oMyGodbtn{
+      width:72px;
+      height:30px;
+      background:#fb463d;
+      color:white;
+      outline:none;
+      border:0;
+      cursor:pointer;
+      position:absolute;
+      right:1px;
+    }
+    p{
+      width:393px;
+      height:26px;
+      font-size:12px;
+      line-height:26px;
+      a{
+        color:#acacac;
+        margin-right:5px;
+      }
+      .oMyGodSearchspan1 {
+        a{
+          color:#fd0200;
+        }
+      }
+    }
+  }
+  .oMyGodBaozheng{
+    width:282px;
+    height:33px;
+    float:left;
+    margin:48px 0 0 64px;
+    div{
+      width:64px;
+      height:33px;
+      float:left;
+      margin-left:30px;
+    }
+    /*正品保证*/
+    .oMyGodBaozhengdiv1{
+      background:url(../img/1569bc7b461_bc_b053891e6777b531f21acd6569f91562_258x546.png) -91px -180px no-repeat;
+    }
+    .oMyGodBaozhengdiv2{
+      background:url(../img/1569bc7b461_bc_b053891e6777b531f21acd6569f91562_258x546.png) -91px -213px no-repeat;
+    }
+    .oMyGodBaozhengdiv3{
+      background:url(../img/1569bc7b461_bc_b053891e6777b531f21acd6569f91562_258x546.png) -91px -246px no-repeat;
+    }
+  }
+}
+//nav区域
+#oMyGodnav-con{height:28px;}
+.oMyGodnav{
+  position:relative;
+  width:1144px;
+  height:28px;
+  margin:0 auto;
+  padding-left:56px;
+  ul{
+    li{
+      float:left;
+      cursor:pointer;
+      a{
+        height:28px;
+        margin-left:34px;
+        color:#4a3a3d;
+      }
+    }
+    .oMyGodnavli1{
+      height:30px;
+      margin-right:69px;
+      padding-top:1px;
+      font-size:16px;
+      font-weight:900;
+      color:#1b0000;
+    }
+    .oMyGodnavli2 {
+      a{
+        color:#ff476c;
+      }
+    }
+    .oMyGodnav-li8{
+      margin-left:73px;
+      padding-left:30px;
+      span{
+        display:inline-block;
+        width:4px;
+        height:4px;
+        background:#333;
+        transform:rotate(45deg);
+        position:relative;
+        bottom:3px;
+        right:3px;
+      }
+    }
+    .oMyGodnav-li9{
+      margin-left:24px;
+      padding-left:17px;
+      span
+      {
+        display:inline-block;
+        width:4px;
+        height:4px;
+        background:#333;
+        transform:rotate(45deg);
+        position:relative;
+        bottom:3px;
+        right:3px;
+      }
+    }
+  }
+}
+//底部区域
+#oMyGodbottom{
+  height:372px;
+  .oMyGodbottom-con{
+    height:322px;
+    margin:0 auto;
+    background:#d3d3d3;
+    padding-top:50px;
+    .oMyGodbottomtop{
+      height:106px;
+      background:#3e3a39;
+      div{
+        width:1200px;
+        height:106px;
+        p{
+          span{
+            margin-top:17px;
+            display:block;
+            width:54px;
+            height:56px;
+            margin-bottom:3px;
+          }
+        }
+        .oMyGodbottomtopp1{
+          span{
+            background:url(../img/1548f53e1b7_bc_f4a0226079f45dd45317e6195735cbd7_60x360.png)  -4px -2px  no-repeat;
+          }
+        }
+        .oMyGodbottomtopp2{
+          span{
+            background:url(../img/1548f53e1b7_bc_f4a0226079f45dd45317e6195735cbd7_60x360.png)  -3px -62px  no-repeat;
+          }
+        }
+        .oMyGodbottomtopp3{
+          span{
+            background:url(../img/1548f53e1b7_bc_f4a0226079f45dd45317e6195735cbd7_60x360.png)  -3px -122px  no-repeat;
+          }
+        }
+        .oMyGodbottomtopp4{
+          span{
+            background:url(../img/1548f53e1b7_bc_f4a0226079f45dd45317e6195735cbd7_60x360.png)  -3px -181px  no-repeat;
+          }
+        }
+        .oMyGodbottomtopp5{
+          span{
+            background:url(../img/1548f53e1b7_bc_f4a0226079f45dd45317e6195735cbd7_60x360.png)  -3px -240px  no-repeat;
+          }
+        }
+        .oMyGodbottomtopp6{
+          span{
+            background:url(../img/1548f53e1b7_bc_f4a0226079f45dd45317e6195735cbd7_60x360.png)  -3px -302px  no-repeat;
+          }
+        }
+        p{
+          float:left;
+          width:54px;
+          height:30px;
+          text-align:center;
+          line-height:12px;
+          color:#f1f1f1;
+          margin:0 73px;
+          font-size:12px;
+        }
+      }
+    }
+    .oMyGodbottomcenter{
+      background:#d3d3d3;
+      height:172px;
+      div{
+        width:1200px;
+        height:136px;
+        margin:0 auto;
+        padding-top:36px;
+        h4{
+          float:left;
+          width:240px;
+          height:136px;
+          p{
+            width:250px;
+            height:50px;
+            line-height:50px;
+            font-size:12px;
+            color:#666;
+            a{
+              display:inline-block;
+              width:36px;
+              height:36px;
+              position:relative;
+              left:10px;
+              top:12px;
+              span{
+                display:none;
+                width:100px;
+                height:100px;
+                padding:18px;
+                position:absolute;
+                background:white;
+                z-index:999;
+                top:-140px;
+                left:-50px;
+                img{
+                  display:inline-block;
+                  width:100px;
+                  height:100px;
+                }
+                i{
+                  display:inline-block;
+                  width:0;
+                  height:0;
+                  border:12px solid transparent;
+                  border-top:12px solid white;
+                  position:absolute;
+                  bottom:-18px;
+                  left:54px;
+                }
+              }
+            }
+          }
+        }
+        ul{
+          float:left;
+          li{
+            width:160px;
+            height:136px;
+            float:left;
+            p{
+              font-size:18px;
+              color:#000;
+              line-height:18px;
+              height:18px;
+              margin-bottom:12px;
+            }
+            a{
+              display:block;
+              font-size:12px;
+              color:#666;
+              margin-bottom:10px;
+              height:12px;
+              line-height:12px;
+            }
+          }
+          .oMyGodtwo{
+            width:110px;
+            height:136px;
+            text-align:center;
+            img{
+              width:100px;
+              height:100px;
+            }
+            span{
+              font-size:12px;
+              color:#666;
+            }
+          }
+        }
+      }
+    }
+    .oMyGodbottomdi{
+      height:44px;
+      background:#333;
+      p{
+        width:1200px;
+        height:44px;
+        margin:0 auto;
+        font-size:12px;
+        color:#f1f1f1;
+        text-align:center;
+        line-height:44px;
+      }
+    }
+  }
+}
+//临时购物车页面
+#oMyGodbuycart{
+  width:320px;
+  position:fixed;
+  top:0;
+  right:-280px;
+  background:red;
+  z-index:9998;
+  div{
+    float:left;
+    cursor:pointer;
+  }
+  .oMyGodbuycartleft{
+    width:40px;
+    height:100%;
+    background:#333;
+    position:relative;
+    .oMyGodbuycar{
+      height:110px;
+      width:24px;
+      font-size:16px;
+      padding:5px 8px;
+      text-align:center;
+      color:white;
+      position:absolute;
+      left:0;
+      top:270px;
+      i{
+        display:block;
+        width:24px;
+        height:24px;
+        font-size:24px;
+        line-height:24px;
+        text-align:center;
+        color:white;
+        margin-bottom:3px;
+      }
+      span{
+        display:block;
+        width:16px;
+        height:16px;
+        background:#f03468;
+        color:white;
+        border-radius:50%;
+        text-align:center;
+        line-height:16px;
+        margin:3px 0 0 4px;
+      }
+    }
+    .oMyGodlianxi{
+      width:24px;
+      height:24px;
+      padding:8px;
+      position:absolute;
+      bottom:90px;
+      i{
+        display:block;
+        width:24px;
+        height:24px;
+        color:white;
+        font-size:24px;
+      }
+    }
+    .oMyGodma{
+      width:24px;
+      height:24px;
+      position:absolute;
+      bottom:50px;
+      padding:8px;
+      font-size:24px;
+      color:white;
+      z-index:19999;
+    }
+    .oMyGodtanma{
+      display:none;
+      overflow:hidden;
+      width:150px;
+      height:160px;
+      background:white;
+      text-align:center;
+      padding-top:20px;
+      position:absolute;
+      bottom:0;
+      left:-150px;
+      z-index:9999;
+      p{
+        width:150px;
+        height:20px;
+        font-size:14px;
+        color: #999999;
+        i{
+          display:block;
+          width:14px;
+          height:14px;
+          position:absolute;
+          top:18px;
+          right:12px;
+        }
+      }
+      img{
+        width:100px;
+        height:100px;
+      }
+    }
+    .oMyGodgotop{
+      display:none;
+      width:40px;
+      height:34px;
+      position:absolute;
+      bottom:0;
+      color:white;
+      font-size:14px;
+      padding-top:16px;
+      text-align:center;
+      i{
+        display:block;
+        width:0;
+        height:0;
+        border:8px solid transparent;
+        border-bottom:8px solid white;
+        position:absolute;
+        top:-2px;
+        left:12px;
+      }
+    }
+  }
+  .oMyGodbuycartright{
+    width:280px;
+    height:100%;
+    background:#f2f2f2;
+    overflow:auto;
+    .oMyGodcar-con{
+      width:280px;
+      padding-top:30px;
+
+    }
+    .oMyGodface{
+      width:250px;
+      height:80px;
+      background:white;
+      text-align:center;
+      line-height: 80px;
+      font-size:16px;
+      margin:20px 0 0 15px;
+    }
+    .oMyGodcartsp{
+      width:230px;
+      height:60px;
+      padding:10px;
+      margin:0 0 10px 15px;
+      background:white;
+      position:relative;
+      .oMyGodzhe{
+        width:250px;
+        height:80px;
+        position:absolute;
+        left:0;
+        top:0;
+        z-index:999;
+      }
+      a{
+        display:block;
+        width:60px;
+        height:60px;
+        float:left;
+        background:white;
+        img{
+          width:100%;
+          height:100%;
+        }
+      }
+      p{
+        float:left;
+        width:162px;
+        height:40px;
+        font-size:12px;
+        line-height:20px;
+        margin-left:8px;
+        overflow:hidden;
+      }
+      span{
+        display:block;
+        width:162px;
+        height:20px;
+        float:left;
+        position:relative;
+        i{
+          width:115px;
+          height:20px;
+          display:block;
+          font-size:18px;
+          margin:0 0 0 10px;
+          float:left;
+          color:#f03468;
+        }
+        b{
+          height:20px;
+          width:14px;
+          display:block;
+          float:left;
+          background:#f03468;
+          font-size:12px;
+          color:white;
+          text-align:center;
+          line-height:20px;
+        }
+        em{
+          display:none;
+          color:gray;
+          float:left;
+          width:12px;
+          height:12px;
+          border-radius:50%;
+          text-align:center;
+          line-height:10px;
+          font-size:22px;
+          border:1px solid gray;
+          margin:4px 0 0 3px;
+          position:absolute;
+          right:0;
+          bottom:0;
+          z-index:1500;
+        }
+      }
+    }
+    .oMyGodjiesuan{
+      width:280px;
+      height:90px;
+      background:white;
+      text-align:center;
+      position:absolute;
+      bottom:0;
+      z-index:9999;
+      div{
+        width:280px;
+        height:40px;
+        p{
+          width:135px;
+          height:40px;
+          float:left;
+          color:#999;
+          font-size:12px;
+          text-align:left;
+          padding-left:5px;
+          b{
+            font-weight:900;
+            color:#333;
+          }
+          span{
+            color:#f00659;
+            font-size:16px;
+            i{
+              font-size:14px;
+            }
+          }
+        }
+      }
+      input{
+        width:255px;
+        height:42px;
+        font-size:18px;
+        color:#666;
+        background:#f2f2f2;
+        text-align:center;
+        line-height:42px;
+        outline:none;
+        border:1px solid #999;
+      }
+    }
+  }
+}
+//全部商品分类的列表
+.oMyGodnavList{
+  display:none;
+  height:458px;
+  width:970px;
+  border:1px solid #eee;
+  border-left:0;
+  background:white;
+  position:absolute;
+  top:197px;
+  left:248px;
+  z-index:1000;
+  div{
+    width:290px;
+    height:176px;
+    padding-top:37px;
+    margin:10px 12px 0 15px;
+    float:left;
+    h3{
+      width:290px;
+      height:28px;
+      font-size:16px;
+      line-height:28px;
+      color:#333;
+      font-weight:900;
+      border-bottom:1px solid #999;
+      margin-bottom:8px;
+    }
+    p{
+      width:290px;
+      height:139px;
+      span{
+        padding-right:5px;
+        margin-left:5px;
+        display:block;
+        float:left;
+        height:20px;
+        text-align:center;
+        line-height:20px;
+        border-right:1px solid #eee;
+        font-size:12px;
+        a{
+          color:#666;
+        }
+      }
+    }
+  }
+}
+.oMyGodbannernav {
+  display:none;
+  width: 176px;
+  height: 462px;
+  position: absolute;
+  left: 28px;
+  top: 197px;
+  background: #f5f5f5;
+  z-index:9999;
+  ul {
+    width: 220px;
+    background: #f5f5f5;
+    li {
+      width: 198px;
+      height: 60px;
+      border-bottom: 1px dashed #a0a0a0;
+      padding: 16px 0 0 22px;
+      font-size: 12px;
+      background: #f5f5f5;
+      p {
+        margin-bottom: 14px;
+        height: 12px;
+        line-height: 12px;
+      }
+      .oMyGodbannernavlip {
+        a {
+          padding-left: 35px;
+          font-size: 14px;
+          height: 14px;
+          line-height: 14px;
+          color: #070009;
+          background:url(../img/1548c1f27a4_2_6cd4e4b1b96efb57a89c040f7c2aa7db_30x30.png) 0 -6px no-repeat;
+        }
+      }
+      .oMyGodbannernavlip2 {
+        a {
+          color: #9c9c9c;
+        }
+        span {
+          color: #9c9c9c;
+        }
+      }
+    }
+  }
+  .oMyGodbannernavlastli {
+    border: 0;
+  }
+}
+
+//自身样式区
+//商品详情区域
+#oMyGoddetails{
+  min-height:1000px;
+  background:#f5f5f5;
+  border-top:2px solid #ff3259;
+  .oMyGodsplianjie{
+    width:970px;
+    height:25px;
+    padding:10px 0 10px 20px;
+    background:white;
+    color:#999;
+    font-size:12px;
+    margin:0 auto;
+    line-height:25px;
+    margin-top:20px;
+    border-bottom:1px solid #f5f5f5;
+  }
+  .oMyGodproduct{
+    width:950px;
+    padding:20px;
+    margin:0 auto;
+    background:white;
+    padding-top:25px;
+    .oMyGodfangda{
+      width:430px;
+      float:left;
+      position:relative;
+      .oMyGodjingzi{
+        position:absolute;
+        left:0;
+        top:0;
+        z-index:9998;
+        width:150px;
+        height:150px;
+        background:#ddd;
+        opacity:0.5;
+        display:none;
+      }
+      .oMyGodsmalltu{
+        width:398px;
+        height:398px;
+        position:relative;
+        .oMyGodsmallzhezhao{
+          width:398px;
+          height: 398px;
+          position:absolute;
+          z-index:10000;
+        }
+        img{
+          position:absolute;
+          z-index:0;
+          width:398px;
+          height:398px;
+        }
+      }
+      .oMyGodsmallb{
+        width:370px;
+        height:62px;
+        margin:10px 0 0 14px;
+        overflow:hidden;
+        p{
+          width:54px;
+          height:50px;
+          padding:3px;
+          margin:3px 0 0 12px;
+          float:left;
+          border:1px solid white;
+          img{
+            display:block;
+            width:52px;
+            height:48px;
+          }
+        }
+      }
+      p{
+        width:370px;
+        height:16px;
+        font-size:12px;
+        margin-top:13px;
+        span{
+          margin-right:20px;
+        }
+        i{
+          margin-left:10px;
+        }
+        .oMyGodorange{
+          color:orange;
+        }
+        .oMyGodshalow{
+          color:#2FB7DC;
+        }
+        .oMyGodred{
+          color:mediumvioletred;
+        }
+        .oMyGodblue{
+           color:blue;
+         }
+        .oMyGodgray{
+          color:gray;
+        }
+      }
+      .oMyGodbigtu{
+        display:none;
+        width:398px;
+        height:398px;
+        overflow:hidden;
+        position:absolute;
+        right:-390px;
+        top:0;
+        z-index:9999;
+        img{
+          position:absolute;
+          left:0;
+          top:0;
+          width: 600px;
+          height:600px;
+        }
+      }
+    }
+    .oMyGodxiangqing{
+      width:520px;
+      float:right;
+      .oMyGodbiaoti{
+        width:520px;
+        height:72px;
+        color:#333;
+        h1{
+          font-size:18px;
+          width:360px;
+          height:72px;
+          float:left;
+          span{
+            color:#f03468;
+          }
+        }
+        div{
+          margin-left:5px;
+          float:left;
+          width:144px;
+          height:40px;
+          padding-left:10px;
+          border-left:1px solid #ddd;
+          span{
+            display:block;
+            width:40px;
+            height:40px;
+            float:left;
+            background:red;
+            background:url(../img/1548f5518a7_65_9ab36c2c49db08bcd0a97d84d6a3b45a_42x42.png) center no-repeat;
+            margin-right:5px;
+          }
+          i{
+            display:block;
+            width:90px;
+            height:20px;
+            line-height:20px;
+            font-size:14px;
+            color:#999;
+          }
+        }
+      }
+      .oMyGodjieshao{
+        margin-top:30px;
+        width:520px;
+        line-height:36px;
+        font-size:12px;
+        color:#666;
+      }
+      .oMyGodjiawei{
+        width:520px;
+        height:212px;
+        .oMyGodjia{
+          width:520px;
+          height:40px;
+          line-height:40px;
+          color:#f03468;
+          font-size:12px;
+          margin-bottom:10px;
+          span{
+            font-size:24px;
+            margin-left:35px;
+            font-weight:900;
+            i{
+              margin-left:0;
+              color:#f03468;
+            }
+          }
+          i{
+            color:#999;
+            margin-left:90px;
+          }
+          del{
+            font-size:14px;
+            color:#666;
+          }
+        }
+        .oMyGodshui{
+          width:520px;
+          height:14px;
+          font-size:12px;
+          line-height:14px;
+          color:#333;
+          margin-top:5px;
+          i{
+            color:#666;
+          }
+          span{
+            margin-left:57px;
+            color:#f03468;
+          }
+        }
+        .oMyGodsay{
+          width:520px;
+          height:38px;
+          font-size:12px;
+          line-height:38px;
+          color:#666;
+          border-bottom:1px solid #ddd;
+          i{
+            margin-right:59px;
+          }
+        }
+        .oMyGodyouji{
+          width:520px;
+          height:90px;
+          border-bottom:1px solid #ddd;
+          margin-bottom:30px;
+          div{
+            float:left;
+          }
+          .oMyGodyoujileft{
+            width:124px;
+            height:70px;
+            border-right:1px dashed #333;
+            margin-top:10px;
+            padding:0 0 0 91px;
+            font-size:12px;
+            a{
+              color:#333;
+            }
+          }
+          .oMyGodyoujiright{
+            width:296px;
+            height:60px;
+            margin-top:10px;
+            padding-left:8px;
+            font-size:12px;
+            color:#666;
+            p{
+              margin-bottom:5px;
+            }
+          }
+        }
+      }
+      .oMyGodbuy{
+        border-top:1px solid #ddd;
+        width:520px;
+        margin-top:10px;
+        .oMyGoddaxiao{
+          width:520px;
+          p{
+            margin:10px 0;
+            width:520px;
+            height:30px;
+            i{
+              display:block;
+              float:left;
+              color:#999;
+              margin-right:60px;
+              font-size:12px;
+            }
+            span{
+              display:block;
+              float:left;
+              margin-right:5px;
+              border:1px solid #666;
+              height:16px;
+              padding: 0 3px;
+              line-height:16px;
+              font-size:12px;
+            }
+          }
+        }
+        .oMyGodshuliang{
+          width:520px;
+          height:35px;
+          padding-top:10px;
+          margin-bottom:5px;
+          position:relative;
+          img{
+            width:30px;
+            height:30px;
+            border-radius:50%;
+            position:absolute;
+            left:256px;
+            top:56px;
+            z-index:200030;
+          }
+          i{
+            display:block;
+            float:left;
+            color:#999;
+            margin-right:60px;
+            font-size:12px;
+          }
+          p{
+            width:81px;
+            height:26px;
+            float:left;
+            span{
+              display:block;
+              float:left;
+              width:24px;
+              height:24px;
+              border:1px solid #999;
+              text-align:center;
+              line-height:24px;
+              cursor:pointer;
+            }
+            .oMyGodspsl{
+              border-left:0;
+              border-right:0;
+            }
+          }
+          .oMyGodyouhuo{
+            color:#222;
+            margin-left:15px;
+            font-size:12px;
+          }
+        }
+        a{
+          display:block;
+          float:left;
+          height:46px;
+          width: 162px;
+          border:1px solid #fa4678;
+          text-align:center;
+          line-height:46px;
+          font-size:22px;
+          margin-right:20px;
+          color:#fff;
+          position:relative;
+          background:#fa4678;
+        }
+        .oMyGodgoumai{
+          background:#fff1f5;
+          color:#f03468;
+        }
+      }
+    }
+  }
+  .oMyGodworld{
+    width:990px;
+    height:50px;
+    padding:60px 0;
+    margin:0 auto;
+    background:white;
+    div{
+      float:left;
+      width:246px;
+      height:50px;
+      border-right:1px solid #ddd;
+      text-align:center;
+      line-height:50px;
+      position:relative;
+      overflow:hidden;
+      p{
+        width:246px;
+        height:25px;
+        font-size:18px;
+        line-height:18px;
+        color:#000;
+      }
+      .oMygodtongbu{
+        width:201px;
+        height:50px;
+        position:absolute;
+        top:0;
+        left:0;
+        padding-left:45px;
+        background:white;
+        border:0;
+        z-index:999;
+        .oMyGodxunhuan{
+          width:247px;
+          height:50px;
+          position:absolute;
+          left:0;
+          top:0;
+          z-index:3000;
+        }
+        span{
+          display:block;
+          width:50px;
+          height:50px;
+          position:absolute;
+          background:url(../img/tip-bg.png) center no-repeat;
+          i{
+            font-size:32px;
+            color:white;
+          }
+        }
+        .oMyGodquanqiu{
+          width:151px;
+          height:50px;
+          float:left;
+          border:0;
+          position:absolute;
+          left:97px;
+          i{
+            display:block;
+            width:150px;
+            height:25px;
+            line-height:25px;
+            font-size:18px;
+          }
+        }
+      }
+    }
+    .oMyGodworldlast{
+      border:0;
+    }
+  }
+  .oMyGodgess{
+    width:990px;
+    height:247px;
+    margin: 20px auto 0;
+    padding:15px 0 10px 0;
+    background:white;
+    ul{
+      padding-left:20px;
+      li{
+        width:170px;
+        height:239px;
+        margin-right:24px;
+        float:left;
+        img{
+          width:170px;
+          height:170px;
+        }
+        div{
+          width:165px;
+          height:28px;
+          line-height:28px;
+          white-space:nowrap;
+          overflow:hidden;
+          text-overflow:ellipsis;
+          margin-top:4px;
+          font-size:12px;
+        }
+        p{
+          width: 170px;
+          height:20px;
+          margin-top:4px;
+          font-size:14px;
+          color:#f03468;
+          span{
+            font-size:20px;
+            font-weight:900;
+          }
+        }
+      }
+    }
+  }
+  .oMyGodspxq{
+    width:990px;
+    margin:0 auto;
+    background:white;
+    margin-top:30px;
+    .oMyGodxuanfu{
+      width:970px;
+      height:40px;
+      background:#000;
+      padding:4px 0 0 20px;
+      float:left;
+      h3{
+        width:96px;
+        font-size:14px;
+        height:40px;
+        padding:0 20px;
+        background:white;
+        line-height:40px;
+        text-align:center;
+        color:#f03468;
+        margin-right:20px;
+        float:left;
+      }
+      h4{
+        width:96px;
+        font-size:14px;
+        height:40px;
+        padding:0 20px;
+        line-height:40px;
+        text-align:center;
+        color:white;
+        margin-right:20px;
+        float:left;
+      }
+      .oMyGodxuanfuright{
+        float:right;
+        height:40px;
+        p{
+          height:40px;
+          color:#fff;
+          float:left;
+          font-size:22px;
+          padding-top:10px;
+        }
+        del{
+          display:block;
+          font-size:22px;
+          float:left;
+          color:#a76c6c;
+          padding-top:10px;
+        }
+        a{
+          display:none;
+          float:left;
+          width:134px;
+          height:44px;
+          background:#f03468;
+          text-align:center;
+          line-height:44px;
+          font-size:22px;
+          color:#fff;
+          margin-top:-4px;
+        }
+      }
+    }
+    //详细信息图片
+    .oMyGodxiangxi{
+      margin:0 auto;
+      width:870px;
+      padding-left:120px;
+      img{
+        width:750px;
+        display:block;
+      }
+    }
+    //商品评价区域
+    .oMyGodpingjia{
+      width:990px;
+      height:403px;
+      background:white;
+      .oMyGodpjtop{
+        width:960px;
+        border-bottom:1px solid #5d013c;
+        margin:0 auto;
+        position:relative;
+        margin-top:50px;
+        h6{
+          position:absolute;
+          left:275px;
+          top:-18px;
+          z-index:999;
+          background:#390110;
+          width:410px;
+          height:37px;
+          line-height:37px;
+          text-align:center;
+          font-size:20px;
+          color:#fff;
+        }
+      }
+      .oMyGodjilv{
+        width:990px;
+        height:178px;
+        margin-top:80px;
+        padding:10px 0;
+        div{
+          float:left;
+          padding-top:35px;
+        }
+        .oMyGOdjilvleft{
+          width:180px;
+          margin-left:15px;
+          span{
+            display:block;
+            width:180px;
+            height:50px;
+            font-size:12px;
+            color:#f03468;
+            text-align:center;
+            line-height:50px;
+            i{
+              font-size:36px;
+            }
+          }
+          p{
+            width:180px;
+            height:20px;
+            text-align:center;
+            line-height:20px;
+            font-size:12px;
+            color:#333;
+          }
+        }
+        .oMyGodjilvcenter{
+          padding:35px 94px 15px 40px;
+          width:256px;
+          height:128px;
+          p{
+            width:256px;
+            height:16px;
+            margin-bottom:20px;
+            span{
+              display:block;
+              width:190px;
+              float:left;
+              height:16px;
+              border-radius:8px;
+              background:#ddd;
+            }
+            i{
+              display:block;
+              font-size:14px;
+              text-align:center;
+              line-height:16px;
+              width:56px;
+              height:16px;
+              margin-left:10px;
+              float:left;
+            }
+          }
+        }
+        .oMyGodjilvright{
+          width:405px;
+          height:178px;
+          padding-top:38px;
+          p{
+            width:405px;
+            height:40px;
+            line-height:40px;
+            margin-bottom:7px;
+            color:#333;
+            font-size:14px;
+            text-align:center;
+          }
+          a{
+            display:block;
+            background:#f03468;
+            width:130px;
+            height:26px;
+            line-height:26px;
+            padding:0 5px;
+            color:#fff;
+            font-size:14px;
+            text-align:center;
+            margin:0 auto;
+          }
+        }
+      }
+      .oMyGodhaoping{
+        width:950px;
+        height:35px;
+        padding:5px 0 0 10px;
+        margin:0 auto;
+        background: #f5f5f5;
+        a{
+          float:left;
+          margin-top:-23px;
+          width:100px;
+          height:35px;
+          color:#666;
+          text-align:center;
+          line-height:35px;
+          font-size:14px;
+        }
+        .oMyGodfirstp{
+          background:white;
+        }
+      }
+      .oMyGodkehupj{
+        width:960px;
+        height:84px;
+        margin:0 auto;
+        text-align:center;
+        line-height:84px;
+        font-size: 14px;
+        color:#999;
+      }
+    }
+  }
+    //最近浏览的图片
+    .oMyGodvisit{
+      width:990px;
+      height:170px;
+      background:white;
+      margin:20px auto;
+      h5{
+        width:970px;
+        height:20px;
+        padding:10px;
+        line-height:20px;
+        font-size:14px;
+        color:#666;
+      }
+      .oMyGodkanguo{
+        width:970px;
+        height:110px;
+        padding:10px;
+        dl{
+          width:105px;
+          height:76px;
+          float:left;
+          margin-right:5px;
+          dt{
+            width:76px;
+            height:76px;
+            text-align:center;
+            img{
+              width:70px;
+              height:70px;
+            }
+          }
+          dd{
+            width:76px;
+            height:24px;
+            line-height:24px;
+            font-size:18px;
+            color:#f03468;
+          }
+        }
+      }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

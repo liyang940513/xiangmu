@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>奥买家项目页</title>
+    <link rel="stylesheet" href="../scss/details.css"/>
+    <link rel="stylesheet" href="../scss/iconfont.css"/>
+    <script src="../../js/jquery-1.11.3.js"></script>
+    <script src="../../js/cookie.js"></script>
+    <script src="../js/details.js"></script>
+</head>
+<body>
+    <!--top区域-->
+    <div id="oMyGodtop-con">
+        <div class="oMyGodtop">
+            <!--top左侧-->
+            <div class="oMyGodtopLeft">
+                <!--欢迎区域-->
+                <p class="oMyGodwelcome">
+                    <span class="oMyGodCome">欢迎来到奥买家！</span>
+                    <!-- 下方这两个超链接有动画效果-->
+                    <a href="#">登录</a>
+                    <a href="#">免费注册</a>
+                    <span>配送至</span>
+                </p>
+                <!--地址栏-->
+                <p class="oMyGodaddress">
+                    <!-- 市区 -->
+                    <span>北京</span>
+                    <!-- 县-->
+                    <span>市辖区</span>
+                    <!-- 乡镇、街道-->
+                    <span>朝阳区</span>
+                    <!-- 自己做一个三角形-->
+                    <i></i>
+                </p>
+                <!-- 配送地址-->
+                <div class="oMyGodaddressafter">
+                    <div class="oMyGodchoose">
+                        <div class="oMyGodbianhuan">
+                            北京
+                            <i></i>
+                        </div>
+                        <div>
+                            市辖区
+                            <i></i>
+                        </div>
+                        <div>
+                            朝阳区
+                            <i></i>
+                        </div>
+                    </div>
+                    <div class="oMyGodcountry">
+                        <p>北京市</p>
+                        <p>北京市</p>
+                        <p>北京市</p>
+                        <p>北京市</p>
+                        <p>北京市</p>
+                        <p>北京市</p>
+                        <p>北京市</p>
+                        <p>北京市</p>
+                        <p>北京市</p>
+                        <p>北京市</p>
+                        <p>北京市</p>
+                        <p>北京市</p>
+                        <p>北京市</p>
+                        <p>北京市</p>
+                        <p>北京市</p>
+                        <p>北京市</p>
+                        <p>北京市</p>
+                        <p>北京市</p>
+                        <p>北京市</p>
+                        <p>北京市</p>
+                        <p>北京市</p>
+                        <p>北京市</p>
+                        <p>北京市</p>
+                    </div>
+                </div>
+            </div>
+            <!--top右侧-->
+            <ul class="oMyGodtopRight">
+                <li class="oMyGodtopRightli1">
+                    <a href="#">个人中心<i></i></a>
+                    <div>
+                        <a href="#">我的订单</a>
+                        <a href="#">我的优惠券</a>
+                        <a href="#">我的收货地址</a>
+                        <a href="#">我的退换货</a>
+                        <a href="#">收藏夹</a>
+                    </div>
+                </li>
+                <li class="oMyGodtopRightli2"><a href="#">招商入驻</a></li>
+                <div class="oMyGodtopPhone">
+                    <img src="../img/20170624145802.png" alt=""/>
+                </div>
+                <li class="oMyGodtopRightli3"><a href="#"><i></i>手机版</a></li>
+                <li class="oMyGodtopRightli4">
+                    <a href="#">
+                        <i></i>
+                        我的购物车
+                        <!--购物车数量-->
+                        <span>0</span>
+                        件
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- logo-->
+    <div id="oMyGodlogo-con">
+        <div class="oMyGodlogo">
+            <h1>
+                <a href="#"><img src="../img/logo-comon.png" alt=""/></a>
+            </h1>
+            <!-- logo 中的搜索框-->
+            <div class="oMyGodSearch">
+                <input type="text" class="oMyGodtext" placeholder="防晒" autofocus/>
+                <input type="button" class="oMyGodbtn" value="搜索"/>
+                <p>
+                    <span class="oMyGodSearchspan1"><a href="#">生鲜水果</a></span>
+                    <span><a href="#">秋装上新</a></span>
+                    <span><a href="#">数码专场</a></span>
+                    <span><a href="#">贵妇美容</a></span>
+                </p>
+            </div>
+            <div class="oMyGodBaozheng">
+                <div class="oMyGodBaozhengdiv1"><a href="#"></a></div>
+                <div class="oMyGodBaozhengdiv2"><a href="#"></a></div>
+                <div class="oMyGodBaozhengdiv3"><a href="#"></a></div>
+            </div>
+        </div>
+    </div>
+    <!-- nav-->
+    <div id="oMyGodnav-con">
+        <div class="oMyGodnav">
+            <ul>
+                <li class="oMyGodnavli1">全部商品分类</li>
+                <li class="oMyGodnavli2"><a href="#">首页</a></li>
+                <li><a href="#">海外母婴</a></li>
+                <li><a href="#">美妆个护</a></li>
+                <li><a href="#">服饰鞋包</a></li>
+                <li><a href="#">食品酒水</a></li>
+                <li><a href="#">家居百货</a></li>
+                <li><a href="#">平行进口车</a></li>
+                <li><a href="#" class="oMyGodnav-li8"><span></span>国家馆</a></li>
+                <li><a href="#" class="oMyGodnav-li9"><span></span>新品尝鲜</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 放置左侧的详细导航栏使用-->
+    <div class="oMyGodbannernav">
+        <ul>
+            <li class="oMyGodbannernavli1">
+                <p class="oMyGodbannernavlip"><a href="#">母婴用品</a></p>
+                <p class="oMyGodbannernavlip2">
+                    <a href="#">进口奶粉</a>/
+                    <a href="#">纸尿裤</a>/
+                    <a href="#">营养辅食</a>
+                </p>
+            </li>
+            <li class="oMyGodbannernavli2">
+                <p class="oMyGodbannernavlip"><a href="#">美妆个护</a></p>
+                <p class="oMyGodbannernavlip2">
+                    <a href="#">彩妆</a>/
+                    <a href="#">面膜</a>/
+                    <a href="#">洗护护理</a>
+                </p>
+            </li>
+            <li class="oMyGodbannernavli3">
+                <p class="oMyGodbannernavlip"><a href="#">家居百货</a></p>
+                <p class="oMyGodbannernavlip2">
+                    <a href="#">居家日用</a>/
+                    <a href="#">手机数码</a>/
+                    <a href="#">家用电器</a>
+                </p>
+            </li>
+            <li class="oMyGodbannernavli4">
+                <p class="oMyGodbannernavlip"><a href="#">食品保健</a></p>
+                <p class="oMyGodbannernavlip2">
+                    <a href="#">饼干糕点</a>/
+                    <a href="#">酒水饮料</a>/
+                    <a href="#">休闲零食</a>
+                </p>
+            </li>
+            <li class="oMyGodbannernavli5">
+                <p class="oMyGodbannernavlip"><a href="#">服饰箱包</a></p>
+                <p class="oMyGodbannernavlip2">
+                    <a href="#">箱包</a>/
+                    <a href="#">眼镜</a>/
+                    <a href="#">手表</a>/
+                    <a href="#">鞋靴</a>/
+                    <a href="#">配饰</a>
+                </p>
+            </li>
+            <li class="oMyGodbannernavli6">
+                <p class="oMyGodbannernavlip"><a href="#">平行进口汽车</a></p>
+                <p class="oMyGodbannernavlip2">
+                    <a href="#">suv</a>/
+                    <a href="#">跑车</a>/
+                    <a href="#">越野</a>/
+                    <a href="#">轿车</a>
+                </p>
+            </li>
+        </ul>
+    </div>
+    <div class="oMyGodnavList">
+        <div>
+            <h3>进口奶粉</h3>
+            <p>
+                <span><a href="#">爱他美</a></span>
+                <span><a href="#">贝拉米</a></span>
+                <span><a href="#">荷兰牛栏</a></span>
+                <span><a href="#">a2</a></span>
+                <span><a href="#">Pre段</a></span>
+                <span><a href="#">一段</a></span>
+                <span><a href="#">二段</a></span>
+                <span><a href="#">三段</a></span>
+                <span><a href="#">喜宝</a></span>
+                <span><a href="#">四段</a></span>
+                <span><a href="#">美赞臣</a></span>
+                <span><a href="#">五段</a></span>
+                <span><a href="#">1+段</a></span>
+                <span><a href="#">2+段</a></span>
+            </p>
+        </div>
+        <div>
+            <h3>纸尿裤</h3>
+            <p>
+                <span><a href="#">花王</a></span>
+                <span><a href="#">大王</a></span>
+                <span><a href="#">尤妮佳</a></span>
+                <span><a href="#">帮宝适</a></span>
+                <span><a href="#">纸尿裤NB码</a></span>
+                <span><a href="#">纸尿裤S码</a></span>
+                <span><a href="#">拉拉裤L码</a></span>
+                <span><a href="#">拉拉裤XL码</a></span>
+                <span><a href="#">拉拉裤XXL码</a></span>
+
+            </p>
+        </div>
+        <div>
+            <h3>营养辅食</h3>
+            <p>
+                <span><a href="#">米粉/面食</a></span>
+                <span><a href="#">Bio Island</a></span>
+                <span><a href="#">Nature's Way</a></span>
+                <span><a href="#">贝拉米</a></span>
+                <span><a href="#">Life Space</a></span>
+                <span><a href="#">嘉宝</a></span>
+                <span><a href="#">益生菌</a></span>
+                <span><a href="#">补钙</a></span>
+                <span><a href="#">补锌</a></span>
+                <span><a href="#">鱼油</a></span>
+                <span><a href="#">维生素</a></span>
+                <span><a href="#">宝宝退热贴</a></span>
+            </p>
+        </div>
+        <div>
+            <h3>宝宝用品</h3>
+            <p>
+                <span><a href="#">宝宝护肤</a></span>
+                <span><a href="#">防蚊防晒</a></span>
+                <span><a href="#">儿童牙膏</a></span>
+                <span><a href="#">儿童牙刷</a></span>
+                <span><a href="#">洗发沐浴</a></span>
+                <span><a href="#">宝宝专用清洁</a></span>
+                <span><a href="#">卫生护理</a></span>
+                <span><a href="#">奶瓶/奶嘴</a></span>
+                <span><a href="#">勺子/筷子</a></span>
+                <span><a href="#">婴儿口鼻护理</a></span>
+                <span><a href="#">爽身粉</a></span>
+                <span><a href="#">水杯水壶</a></span>
+                <span><a href="#">餐垫/餐盘</a></span>
+                <span><a href="#">碗/餐盒</a></span>
+                <span><a href="#">收纳容器</a></span>
+                <span><a href="#">自制冰饮模具</a></span>
+
+            </p>
+        </div>
+        <div>
+            <h3>宝宝出行/玩具</h3>
+            <p>
+                <span><a href="#">洁面乳</a></span>
+                <span><a href="#">洁面泡沫</a></span>
+                <span><a href="#">洁面香皂</a></span>
+                <span><a href="#">洁面奶</a></span>
+                <span><a href="#">洁面粉</a></span>
+                <span><a href="#">洁面膏</a></span>
+                <span><a href="#">男性洁面</a></span>
+                <span><a href="#">菲诗小铺</a></span>
+                <span><a href="#">Clinique/倩碧</a></span>
+                <span><a href="#">FANCL/芳珂</a></span>
+                <span><a href="#">The Saem/得鲜</a></span>
+                <span><a href="#">资生堂</a></span>
+                <span><a href="#">DHC/蝶翠诗</a></span>
+                <span><a href="#">SANA/莎娜</a></span>
+
+            </p>
+        </div>
+        <div>
+            <h3>妈妈用品</h3>
+            <p>
+                <span><a href="#">孕妇护理</a></span>
+                <span><a href="#">其他</a></span>
+                <span><a href="#">孕妇营养</a></span>
+            </p>
+        </div>
+    </div>
+    <!-- 商品详情区域-->
+    <div id="oMyGoddetails" class="clear">
+        <!-- 用来存放进入到此页的商品详情-->
+        <div class="oMyGodsplianjie"></div>
+        <!-- 用来展示商品-->
+        <div class="oMyGodproduct clear">
+            <div class="oMyGodfangda clear">
+                <!-- 用来放置小图的区域-->
+                <div class="oMyGodjingzi"></div>
+                <div class="oMyGodsmalltu">
+                    <div class="oMyGodsmallzhezhao"></div>
+                    <img src="../img/15d72519df6_2_3e7682a715c992edf340eaa80fd23b73_800x800 (3).png" alt=""/>
+                </div>
+                <div class="oMyGodsmallb">
+                    <p><img src="../img/15d72519df6_2_3e7682a715c992edf340eaa80fd23b73_800x800 (3).png" alt=""/></p>
+                    <p><img src="../img/15d72519df6_2_3e7682a715c992edf340eaa80fd23b73_800x800 (3).png" alt=""/></p>
+                    <p><img src="../img/15d72519df6_2_3e7682a715c992edf340eaa80fd23b73_800x800 (3).png" alt=""/></p>
+                    <p><img src="../img/15d72519df6_2_3e7682a715c992edf340eaa80fd23b73_800x800 (3).png" alt=""/></p>
+                    <p><img src="../img/15d72519df6_2_3e7682a715c992edf340eaa80fd23b73_800x800 (3).png" alt=""/></p>
+                </div>
+                <p>
+                    <span>告诉小伙伴</span>
+                    <i class="iconfont icon-kongjian oMyGodorange"></i>
+                    <i class="iconfont icon-qq01 oMyGodshalow"></i>
+                    <i class="iconfont icon-weibo oMyGodred"></i>
+                    <i class="iconfont icon-renrenwang oMyGodblue"></i>
+                    <i>收藏</i>
+                    <i class="iconfont icon-xin oMyGodgray"></i>
+                </p>
+                <!-- 用来放置放大镜出现后的大图-->
+                <div class="oMyGodbigtu">
+                    <img src="../img/15d72519df6_2_3e7682a715c992edf340eaa80fd23b73_800x800 (2).png" alt=""/>
+                </div>
+            </div>
+            <!-- 用来填写商品详情和介绍。-->
+            <div class="oMyGodxiangqing clear">
+                <div class="oMyGodbiaoti">
+                    <h1>
+                        <span>双层项链修饰脖颈</span>
+                        【国内现货 顺丰直达】C&C S925银饰双圆环时尚简约女士项链百搭短款吊坠锁骨链
+                    </h1>
+                    <div>
+                        <span></span>
+                        <i>Italy</i>
+                        <i>意大利</i>
+                    </div>
+                </div>
+                <div class="oMyGodjieshao">
+                    专注于发现美表达美，打造时尚简约轻奢配饰的意大利品牌C&C，签约30多名设计师倾心设计。这一款minako系列项链就是“简约、先锋”的代表，双层圆环设计，上下两层套链视觉修饰颈间线条。简单的圆环图案展现出时尚女性自信、摩登、率性的生活态度。价格可爱又亲民，成为众多明星潮人的心头之爱！C&C饰品提供终身保养护理服务。
+                </div>
+                <div class="oMyGodjiawei">
+                    <p class="oMyGodjia">
+                        奥买家价
+                        <span>¥ <i>470.00</i></span>
+                        <i>国内参考价</i>
+                        <del>¥ 570.00</del>
+                    </p>
+                    <p class="oMyGodshui">
+                        <i>税费</i>
+                        <span>[包税]</span>
+                        由卖家承担,若配送过程中产生税费,请联系客服！
+                    </p>
+                    <p class="oMyGodsay">
+                        <i>说明</i>
+                        该商品不支持7天无理由退款
+                    </p>
+                    <div class="oMyGodyouji">
+                        <div class="oMyGodyoujileft">
+                            <a href="#">CNC轻奢箱包饰品专营店</a>
+                        </div>
+                        <div class="oMyGodyoujiright">
+                            <p>普通快递 全国包邮</p>
+                            <p>从金霞经济开发区恩瑞国际物流城13栋发货</p>
+                            <p>预计3天送达。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="oMyGodbuy clear">
+                    <!-- 在其中插入p标签， 在p标签中插入i和span标签。i标签的用途是来说明样式的名称  span的用途是选择的样式-->
+                    <div class="oMyGoddaxiao clear"></div>
+                    <div class="oMyGodshuliang">
+                        <i>数量</i>
+                        <p>
+                            <span>-</span>
+                            <span class="oMyGodspsl">1</span>
+                            <span>+</span>
+                        </p>
+                        <span class="oMyGodyouhuo">有货</span>
+                    </div>
+                    <a class="oMyGodgoumai">立即购买</a>
+                    <a class="oMyGodjiaru">加入购物车</a>
+                </div>
+            </div>
+
+        </div>
+        <!-- 商品保证区域-->
+        <!-- 这里的div中有动画效果，在鼠标划过的时候向两边分开-->
+        <div class="oMyGodworld">
+            <div>
+                <p>海外直邮</p>
+                <p>价格同步</p>
+                <div class="oMygodtongbu">
+                    <span><i class="iconfont icon-weixin2"></i></span>
+                    <div class="oMyGodquanqiu">
+                        <i>全球精选</i>
+                        <i>正品保证</i>
+                    </div>
+                    <div class="oMyGodxunhuan"></div>
+                </div>
+            </div>
+            <div>
+                <p>国际物流</p>
+                <p>全程跟踪</p>
+                <div class="oMygodtongbu">
+                    <span><i class="iconfont icon-weixin2"></i></span>
+                    <div class="oMyGodquanqiu">
+                        <i>一键下单</i>
+                        <i>方便快捷</i>
+                    </div>
+                    <div class="oMyGodxunhuan"></div>
+                </div>
+            </div>
+            <div>
+                <p>省去麻烦</p>
+                <p>支付便捷</p>
+                <div class="oMygodtongbu">
+                    <span><i class="iconfont icon-weixin2"></i></span>
+                    <div class="oMyGodquanqiu">
+                        <i>中文客服</i>
+                        <i>贴心服务</i>
+                    </div>
+                    <div class="oMyGodxunhuan"></div>
+                </div>
+            </div>
+            <div class="oMyGodworldlast">
+                <p>关税补贴</p>
+                <p>安全无忧</p>
+                <div class="oMygodtongbu">
+                    <span><i class="iconfont icon-weixin2"></i></span>
+                    <div class="oMyGodquanqiu">
+                        <i>正规清关</i>
+                        <i>国检查验</i>
+                    </div>
+                    <div class="oMyGodxunhuan"></div>
+                </div>
+            </div>
+        </div>
+        <!-- 猜你喜欢区域-->
+        <div class="oMyGodgess">
+            <ul>
+                <li>
+                    <img src="../img/157b836ebee_2_00d832ea36e9ef21b3ac101d19720f8a_800x800.png" alt=""/>
+                    <div>【新品】adidas三叶草 PureBook</div>
+                    <p>¥
+                        <span>1562.00</span>
+                    </p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <img src="../img/157b836ebee_2_00d832ea36e9ef21b3ac101d19720f8a_800x800.png" alt=""/>
+                    <div>【新品】adidas三叶草 PureBook</div>
+                    <p>¥
+                        <span>1562.00</span>
+                    </p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <img src="../img/157b836ebee_2_00d832ea36e9ef21b3ac101d19720f8a_800x800.png" alt=""/>
+                    <div>【新品】adidas三叶草 PureBook</div>
+                    <p>¥
+                        <span>1562.00</span>
+                    </p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <img src="../img/157b836ebee_2_00d832ea36e9ef21b3ac101d19720f8a_800x800.png" alt=""/>
+                    <div>【新品】adidas三叶草 PureBook</div>
+                    <p>¥
+                        <span>1562.00</span>
+                    </p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <img src="../img/157b836ebee_2_00d832ea36e9ef21b3ac101d19720f8a_800x800.png" alt=""/>
+                    <div>【新品】adidas三叶草 PureBook</div>
+                    <p>¥
+                        <span>1562.00</span>
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <!-- 商品详情区域-->
+        <div class="oMyGodspxq clear">
+            <div class="oMyGodxuanfu clear">
+                <h3>商品详情</h3>
+                <h4>商品评价</h4>
+                <div class="oMyGodxuanfuright clear">
+                    <p>¥ 1562.00</p>
+                    <del>¥ 1119.00</del>
+                    <a href="#">加入购物车</a>
+                </div>
+            </div>
+            <!-- 用来存放展示图片和详细信息的图片-->
+            <div class="oMyGodxiangxi clear">
+
+            </div>
+            <!-- 商品评价-->
+            <div class="oMyGodpingjia clear">
+                <div class="oMyGodpjtop clear">
+                    <h6>商品评价</h6>
+                </div>
+                <div class="oMyGodjilv">
+                    <div class="oMyGOdjilvleft">
+                        <span>
+                            <i>0</i>
+                            %
+                        </span>
+                        <p>好评率</p>
+                        <p>共 0人评论</p>
+                    </div>
+                    <div class="oMyGodjilvcenter">
+                        <p>
+                            <span></span>
+                            <i>
+                                好评
+                                <b>(0)</b>
+                            </i>
+                        </p>
+                        <p>
+                            <span></span>
+                            <i>
+                                中评
+                                <b>(0)</b>
+                            </i>
+                        </p>
+                        <p>
+                            <span></span>
+                            <i>
+                                差评
+                                <b>(0)</b>
+                            </i>
+                        </p>
+                    </div>
+                    <div class="oMyGodjilvright">
+                        <p>您可对已购并确认收货的商品进行评价</p>
+                        <a href="#">写评价分享我的看法</a>
+                    </div>
+                </div>
+                <!-- 详细评价-->
+                <div class="oMyGodhaoping">
+                    <a href="#" class="oMyGodfirstp">全部评价<i>(0)</i></a>
+                    <a href="#">好评<i>(0)</i></a>
+                    <a href="#">中评<i>(0)</i></a>
+                    <a href="#">差评<i>(0)</i></a>
+                </div>
+                <div class="oMyGodkehupj">
+                    暂无该商品评论信息~
+                </div>
+            </div>
+        </div>
+        <!-- 最近浏览-->
+        <div class="oMyGodvisit">
+            <h5>最近浏览</h5>
+            <!-- 最近浏览的详情-->
+            <div class="oMyGodkanguo"></div>
+        </div>
+    </div>
+    <!-- 底部区域-->
+    <div id="oMyGodbottom">
+        <div class="oMyGodbottom-con">
+            <div class="oMyGodbottomtop">
+                <div>
+                    <p class="oMyGodbottomtopp1">
+                        <span></span>
+                        上市公司
+                    </p>
+                    <p class="oMyGodbottomtopp2">
+                        <span></span>
+                        全资自营
+                    </p>
+                    <p class="oMyGodbottomtopp3">
+                        <span></span>
+                        正品低价
+                    </p>
+                    <p class="oMyGodbottomtopp4">
+                        <span></span>
+                        O2O模式
+                    </p>
+                    <p class="oMyGodbottomtopp5">
+                        <span></span>
+                        海关监管
+                    </p>
+                    <p class="oMyGodbottomtopp6">
+                        <span></span>
+                        无忧售后
+                    </p>
+                </div>
+            </div>
+            <div class="oMyGodbottomcenter">
+                <div>
+                    <h4>
+                        <img src="../img/logo-bottom.png" alt=""/>
+                        <p>关注我们
+                            <a href="#">
+                                <img src="../img/icon-wb.png" alt=""/>
+                                    <span>
+                                        <img src="../../index/img/1507774982.jpg" alt=""/>
+                                        <i></i>
+                                    </span>
+                            </a>
+                            <a href="#">
+                                <img src="../img/icon-wx.png" alt=""/>
+                                    <span>
+                                        <img src="../img/20170624145802.png" alt=""/>
+                                        <i></i>
+                                    </span>
+                            </a>
+                        </p>
+                    </h4>
+                    <ul>
+                        <li>
+                            <p>购物条款</p>
+                            <a href="#">会员注册协议</a>
+                            <a href="#">网站使用条款</a>
+                            <a href="#">隐私条款</a>
+                        </li>
+                        <li>
+                            <p>购物指南</p>
+                            <a href="#">简单购物流程</a>
+                            <a href="#">售后服务</a>
+                            <a href="#">网站免责声明</a>
+                        </li>
+                        <li>
+                            <p>新手上路</p>
+                            <a href="#">订单的几种状态</a>
+                            <a href="#">顾客导读</a>
+                        </li>
+                        <li>
+                            <p>支付配送方式</p>
+                            <a href="#">关于送货和验货</a>
+                            <a href="#">网上支付小贴士</a>
+                        </li>
+                        <li>
+                            <p>奥买家</p>
+                            <a href="#">招商入驻</a>
+                            <a href="#">关于奥买家</a>
+                            <a href="#">联系我们</a>
+                            <a href="#">新闻动态</a>
+                        </li>
+                        <li class="oMyGodtwo">
+                            <img src="../img/20170624145802.png" alt=""/>
+                            <span>下载奥买家移动APP</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="oMyGodbottomdi">
+                <p>
+                    粤ICP备15091122号-1 | Copyright@ 奥买家 2016-2017，All Rights Reserved | 广东奥园跨境电商集团有限公司版权所有
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- 购物车-->
+    <div id="oMyGodbuycart">
+        <div class="oMyGodbuycartleft">
+            <div class="oMyGodbuycar">
+                <i class="iconfont icon-gouwuche"></i>
+                购物车
+                <span>0</span>
+            </div>
+            <div class="oMyGodlianxi">
+                <i class="iconfont icon-weixin2"></i>
+            </div>
+            <div class="oMyGodma iconfont icon-iconweixinerweima01">
+            </div>
+            <div class="oMyGodtanma">
+                <p>奥买家全球购 <i>X</i></p>
+                <img src="../img/20170624145802.png" alt=""/>
+                <p>扫码有惊喜</p>
+            </div>
+            <div class="oMyGodgotop">
+                <i></i>
+                TOP
+                置顶
+            </div>
+        </div>
+        <div class="oMyGodbuycartright">
+            <div class="oMyGodcar-con">
+                <div class="oMyGodface">
+                    ^_^ 既来之，则买之！
+                </div>
+                <div class="oMyGodjiesuan">
+                    <div>
+                        <p>
+                            <!--这里边的数字是所有商品的综合-->
+                            共
+                            <b class="oMyGodjishuqi"> 0  </b>
+                            件
+                        </p>
+                        <p>
+                            商品总额：
+                            <span><i>¥</i></span>
+                        </p>
+                    </div>
+                    <input type="button" value="去购物车结算"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
